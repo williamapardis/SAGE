@@ -1,5 +1,6 @@
 //libraries
 #include <Wire.h>
+#include <time.h> 
 #include "WiFi.h"
 #include <Adafruit_TestBed.h>
 extern Adafruit_TestBed TB;
@@ -16,10 +17,12 @@ extern Adafruit_TestBed TB;
 #define DEFAULT_I2C_PORT &Wire
 #define SECONDARY_I2C_PORT &Wire1
 
-//#include "ESPAsyncWebServer.h"
+//time offsets
+long timezone = 1; 
+byte daysavetime = 1;
 
-const char* ssid = "SAGE-Access-Point";
-const char* password = "WHOI1930";
+const char* ssid = "Scientists2.4";
+const char* password = "FalkorTooSC1";
 
 IPAddress IP;
 
@@ -62,23 +65,34 @@ void setup() {
 
   analogReadResolution(12);
 
+
   Wire1.setPins(SDA1, SCL1);
 
-  while(!Serial){delay(10000);break;}
+  //serial ports init
   Serial.begin(115200);Serial.flush();
   Serial1.begin(115200);Serial1.flush();
+  while(!Serial){delay(10000);break;}
 
-  // Setting the ESP as an access point
-  Serial.print("Setting AP (Access Point)…");
-  // Remove the password parameter, if you want the AP (Access Point) to be open
-  WiFi.softAP(ssid, password);
 
-  IP = WiFi.softAPIP();
-  Serial.print("AP IP address: ");
-  Serial.println(IP);
-
-  server.begin();
-
+  //First try to connect to WiFi to sync time
+  Serial.print("Connecting to: ");
+  Serial.println(ssid);
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);Serial.print(".");
+  }
+  Serial.println("WiFi connected");
+  Serial.println("IP address: ");
+  Serial.println(WiFi.localIP());
+  //collect time from web
+  Serial.println("Contacting Time Server");
+  configTime(3600*timezone, daysavetime*3600, "time.nist.gov", "0.pool.ntp.org", "1.pool.ntp.org");
+	struct tm tmstruct ;
+  delay(2000);
+  tmstruct.tm_year = 0;
+  getLocalTime(&tmstruct, 5000);
+	Serial.printf("\nNow is... %d-%02d-%02d %02d:%02d:%02d\n\n",(tmstruct.tm_year)+1900,( tmstruct.tm_mon)+1, tmstruct.tm_mday,tmstruct.tm_hour , tmstruct.tm_min, tmstruct.tm_sec);
+  WiFi.disconnect();
   
   //initilize SD card
   Serial.print("initilizing SD card... ");
@@ -89,9 +103,28 @@ void setup() {
   //print storage
   Serial.printf("Total space: %lluMB\n", SD.totalBytes() / (1024 * 1024));
   Serial.printf("Used space: %lluMB\n", SD.usedBytes() / (1024 * 1024));
+  //check or creat data diretory 
+  char dataDir[30];
+  sprintf(dataDir,"/data/%d%02d%02dT%02d%02d%02d",(tmstruct.tm_year)+1900,( tmstruct.tm_mon)+1, tmstruct.tm_mday,tmstruct.tm_hour , tmstruct.tm_min, tmstruct.tm_sec);
+  createDir(SD,dataDir);
   //list root directory
-  listDir(SD, "/", 0);
-  
+  listDir(SD, "/data", 0);
+
+
+  // Setting the ESP as an access point
+  Serial.print("Setting AP (Access Point)…");
+  ssid = "SAGE-Access-Point";
+  password = "WHOI1930";
+  // Remove the password parameter, if you want the AP (Access Point) to be open
+  WiFi.softAP(ssid, password);
+
+  IP = WiFi.softAPIP();
+  Serial.print("AP IP address: ");
+  Serial.println(IP);
+
+  server.begin();
+
+
   //Scan I2C bus and print the available addresses
   Serial.println("scanning I2C busses");
   Serial.print("Default port (Wire0) ");
