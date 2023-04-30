@@ -1,12 +1,17 @@
+//libraries
 #include <Wire.h>
 #include "WiFi.h"
 #include <Adafruit_TestBed.h>
 extern Adafruit_TestBed TB;
-//I2C devices
+//I2C device libraries
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME280.h>
 #include <Adafruit_PWMServoDriver.h>
 #include "Adafruit_MPRLS.h"
+//SD libraries
+#include "FS.h"
+#include "SD.h"
+#include "SPI.h"
 
 #define DEFAULT_I2C_PORT &Wire
 #define SECONDARY_I2C_PORT &Wire1
@@ -74,6 +79,19 @@ void setup() {
 
   server.begin();
 
+  
+  //initilize SD card
+  Serial.print("initilizing SD card... ");
+  if(!SD.begin()){
+    Serial.println("Card Mount Failed");
+  }
+  Serial.println("SD initilized");  
+  //print storage
+  Serial.printf("Total space: %lluMB\n", SD.totalBytes() / (1024 * 1024));
+  Serial.printf("Used space: %lluMB\n", SD.usedBytes() / (1024 * 1024));
+  //list root directory
+  listDir(SD, "/", 0);
+  
   //Scan I2C bus and print the available addresses
   Serial.println("scanning I2C busses");
   Serial.print("Default port (Wire0) ");
