@@ -9,7 +9,8 @@
   - Two i2c pressure sensors.
   - Supplies power to laser and Red Pitaya.
   - Serial communication to Red Pitaya.
-  - ESP32 microcontroller - onboard ADCs read thermistors, one onbaord DAC controls laser temperature, one onboard DAC can modulate laser (not preferred), DIO switches power channels,   
+  - ESP32 microcontroller - onboard ADCs read thermistors, one onbaord DAC controls laser temperature, one onboard DAC can modulate laser (not preferred), DIO switches power channels, talks to PWM controllers for power modulation (16 on one chip, only using 8), gets time from clock, interfaces with SD Card.
+     
 ## Custom PCBs
 
 ### [SAGE_IO PCB 17-0010](https://github.com/williamapardis/SAGE_IO/tree/main/electrical/SAGE/17-%200010%20ESP32-S3%20Control%20IO)
