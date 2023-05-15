@@ -1,0 +1,16 @@
+G04*
+G04 #@! TF.GenerationSoftware,Altium Limited,CircuitStudio,1.5.2 (30)*
+G04*
+G04 Layer_Color=7318015*
+%FSLAX25Y25*%
+%MOIN*%
+G70*
+G01*
+G75*
+%ADD10R,0.09000X0.02000*%
+D10*
+X304398Y378011D02*
+D03*
+Y388011D02*
+D03*
+M02*

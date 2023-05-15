@@ -1,0 +1,46 @@
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=C7-2
+Removed Pin From Net: NetName=NetC10_1 Pin=C8-1
+Removed Pin From Net: NetName=NetC10_2 Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=GND Pin=C15-2
+Removed Pin From Net: NetName=GND Pin=C16-2
+Removed Pin From Net: NetName=GND Pin=C17-2
+Removed Pin From Net: NetName=GND Pin=C18-2
+Removed Pin From Net: NetName=GND Pin=C19-2
+Removed Pin From Net: NetName=GND Pin=C20-2
+Removed Pin From Net: NetName=GND Pin=C21-2
+Removed Pin From Net: NetName=GND Pin=C22-2
+Removed Pin From Net: NetName=GND Pin=C23-2
+Removed Pin From Net: NetName=GND Pin=C24-2
+Removed Pin From Net: NetName=GND Pin=C25-2
+Removed Pin From Net: NetName=GND Pin=C26-2
+Removed Pin From Net: NetName=GND Pin=C27-1
+Removed Pin From Net: NetName=GND Pin=C28-1
+Removed Pin From Net: NetName=GND Pin=C29-2
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=R11-1
+Removed Pin From Net: NetName=TX Pin=U7-10
+Removed Pin From Net: NetName=SCL Pin=U7-11
+Removed Pin From Net: NetName=SDA Pin=U7-12
+Removed Pin From Net: NetName=A1 Pin=U7-23
+Removed Pin From Net: NetName=A0 Pin=U7-24
+Removed Pin From Net: NetName=MOSI Pin=U7-39
+Removed Pin From Net: NetName=SCK Pin=U7-40
+Removed Pin From Net: NetName=MISO Pin=U7-41
+Removed Pin From Net: NetName=SCL1 Pin=U7-45
+Removed Pin From Net: NetName=SDA1 Pin=U7-47
+Removed Pin From Net: NetName=GND Pin=U7-57
+Added Component: Designator=C9(1608[0603])
+Added Component: Designator=C10(1608[0603])
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=+3.3VDC_1 Pin=C7-2
+Added Pin To Net: NetName=NetC10_1 Pin=C8-1
+Added Pin To Net: NetName=NetC10_2 Pin=C8-2
+Added Pin To Net: NetName=+3.3VDC_1 Pin=U8-12
+Added Member To Class: ClassName=Sheet1 Member=Component C9 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component C10 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component U8 Check availability

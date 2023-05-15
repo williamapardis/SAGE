@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=+3.3VDC_0 Pin=C5-2
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=C10-2
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=+3.3VDC_0 Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=R21-1
+Removed Pin From Net: NetName=NetC9_2 Pin=U5-4
+Removed Pin From Net: NetName=NetC9_1 Pin=U5-6
+Change Component Footprint: Designator=J3 Old Footprint=4P VERT New Footprint=JST_SM04B-SRSS-TB(LF)(SN)
+Change Component Footprint: Designator=J4 Old Footprint=4P vert New Footprint=JST_SM04B-SRSS-TB(LF)(SN)
+Change Component Comment : Designator=U6 Old Comment=310030252 Check availability New Comment=PCA9685PW,112
+Change Component Comment : Designator=C1 Old Comment=Cap Semi New Comment=16V
+Change Component Comment : Designator=C3 Old Comment=Cap Semi New Comment=16V
+Change Component Comment : Designator=C5 Old Comment=Cap Semi New Comment=16V
+Change Component Comment : Designator=C6 Old Comment=Cap Semi New Comment=16V
+Change Component Comment : Designator=C7 Old Comment=Cap Semi New Comment=16V
+Change Component Comment : Designator=C9 Old Comment=Cap Semi New Comment=16V
+Change Component Comment : Designator=C10 Old Comment=Cap Semi New Comment=16V
+Change Component Comment : Designator=C11 Old Comment=Cap Semi New Comment=16V
+Change Component Comment : Designator=C2 Old Comment=Cap Semi New Comment=25V
+Change Component Comment : Designator=C12 Old Comment=Cap Semi New Comment=25V
+Change Component Comment : Designator=C4 Old Comment=Cap Semi New Comment=50V
+Change Component Comment : Designator=C8 Old Comment=Cap Semi New Comment=50V
+Change Component Comment : Designator=C13 Old Comment=Cap Semi New Comment=100V
+Change Component Comment : Designator=C14 Old Comment=Cap Semi New Comment=100V
+Change Component Comment : Designator=C15 Old Comment=Cap Semi New Comment=100V
+Change Component Comment : Designator=U9 Old Comment=Check availability New Comment=DS3231S#T&R
+Change Component Comment : Designator=U7 Old Comment=MAX6045AEUR New Comment=MAX6045BEUR
+Change Component Description : Designator=P3 Old Description=12V, 4.5A Step-Down Voltage Regulator New Description=DC DC CONVERTER 12V 54W
+Change Component Description : Designator=C12 Old Description=Capacitor 1uF, 10V, 10% New Description=CAP CER 1UF 25V X7R 0603
+Change Component Description : Designator=C13 Old Description=Capacitor 2.2nF, 10V, 10% New Description=CAP CER 2200PF 100V X7R 0603
+Change Component Description : Designator=C14 Old Description=Capacitor 10nF, 10V, 10% New Description=CAP CER 10000PF 100V X7R 0603
+Change Component Description : Designator=C15 Old Description=Capacitor 10nF, 10V, 10% New Description=CAP CER 10000PF 100V X7R 0603
+Change Component Description : Designator=C2 Old Description=Capacitor 10uF, 10V, 10% New Description=CAP CER 1UF 25V X7R 0603
+Change Component Description : Designator=C1 Old Description=Capacitor 10uF, 10V, 10% New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C3 Old Description=Capacitor 10uF, 10V, 10% New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C4 Old Description=Capacitor, 0.1uF, 10V, 10% New Description=CAP CER 0.1UF 50V X7R 0603
+Change Component Description : Designator=C8 Old Description=Capacitor, 0.1uF, >10V, 10% New Description=CAP CER 0.1UF 50V X7R 0603
+Change Component Description : Designator=C6 Old Description=Capacitor, 10uF, 10V, 10% New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C5 Old Description=Capacitor, 10uF, >10V, 10% New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C7 Old Description=Capacitor, 10uF, >10V, 10% New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C9 Old Description=Capacitor, 10uF, >10V, 10% New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C10 Old Description=Capacitor, 10uF, >10V, 10% New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C11 Old Description=Capacitor, >10V, 10% New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=R1 Old Description=Resistor, 1/8W, 1% New Description=RES 100K OHM 1% 1/4W 0603
+Added Component: Designator=R2(0402)
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=+3.3VDC_1 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=R21-1
+Added Pin To Net: NetName=NetC9_1 Pin=U5-4
+Added Pin To Net: NetName=NetC9_2 Pin=U5-6
+Added Member To Class: ClassName=Sheet1 Member=Component R2 Res3
+Added Member To Class: ClassName=Sheet1 Member=Component R21 Res3

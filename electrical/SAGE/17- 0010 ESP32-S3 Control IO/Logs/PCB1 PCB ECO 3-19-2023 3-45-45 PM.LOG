@@ -1,0 +1,5 @@
+Change Component Description : Designator=C6 Old Description=Capacitor (Semiconductor SIM Model) New Description=Capacitor 10V
+Added Component: Designator=J16(CONN_BM04B-SRSS-TB(LF)(SN))
+Added Pin To Net: NetName=GND Pin=J16-1
+Added Pin To Net: NetName=EN Pin=J16-2
+Added Member To Class: ClassName=Sheet1 Member=Component J16 Enable

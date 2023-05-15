@@ -1,0 +1,15 @@
+Removed Member From Class: ClassName=Sheet1 Member=U2
+Added Component: Designator=U?(SON50P300X300X80-11N)
+Added Component: Designator=U?(SON50P300X300X80-11N)
+Added Pin To Net: NetName=NetC3_2 Pin=U?-1
+Added Pin To Net: NetName=NetC3_1 Pin=U?-2
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-4
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-6
+Added Pin To Net: NetName=NetR4_2 Pin=U?-7
+Added Pin To Net: NetName=NetC8_2 Pin=U?-8
+Added Pin To Net: NetName=NetC8_2 Pin=U?-9
+Added Pin To Net: NetName=+3.3V Pin=U?-10
+Added Pin To Net: NetName=GND Pin=U?-11
+Added Member To Class: ClassName=Sheet1 Member=Component U? Check availability

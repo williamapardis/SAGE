@@ -1,0 +1,103 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+R24        0402                  -795mil         95mil       -795mil         95mil   -783.709mil     78.875mil  B        125.00 Res3           
+R23        0402                  -827mil         73mil       -827mil         73mil   -815.709mil     56.875mil  B        125.00 Res3           
+R22        0402               488.949mil   1219.429mil    488.949mil   1219.429mil    508.559mil   1217.713mil  T        175.00 Res3           
+R12        0402               488.949mil   1261.269mil    488.949mil   1261.269mil    508.559mil   1259.554mil  T        175.00 Res3           
+P16        HDR1X3            -893.915mil   1540.642mil       -812mil       1598mil       -812mil       1598mil  T        215.00 DAC Select     
+R20        J1-0603            772.918mil   1449.667mil    772.918mil   1449.667mil    789.855mil   1473.854mil  T        235.00 Res3           
+R19        J1-0603           1116.607mil   1172.004mil   1116.607mil   1172.004mil   1139.226mil   1190.984mil  T        220.00 Res3           
+R18        J1-0603           1408.032mil    831.888mil   1408.032mil    831.888mil   1434.793mil    844.367mil  T        205.00 Res3           
+R17        J1-0603           1587.333mil    420.332mil   1587.333mil    420.332mil   1616.412mil     425.46mil  T        190.00 Res3           
+R16        J1-0603            1653.51mil    -23.021mil    1653.51mil    -23.021mil   1682.589mil    -28.148mil  T        170.00 Res3           
+R15        J1-0603           1569.093mil   -464.493mil   1569.093mil   -464.493mil   1595.854mil   -476.971mil  T        155.00 Res3           
+R14        J1-0603           1361.575mil   -878.063mil   1361.575mil   -878.063mil   1384.194mil   -897.043mil  T        140.00 Res3           
+R13        J1-0603           1060.958mil  -1233.811mil   1060.958mil  -1233.811mil   1077.894mil  -1257.999mil  T        125.00 Res3           
+P3         D36V50FXX,_4.5A   -493.013mil  -1963.591mil   -850.963mil   -2230.59mil   -850.963mil   -2230.59mil  T        345.00 D36V50F12      
+P4         D36V50FXX,_4.5A  -1906.334mil    -308.06mil      -2390mil       -140mil      -2390mil       -140mil  T        280.00 D36V50F5       
+J16        CONN_BM04B-SRSS-TB(LF)(SN)  -2375.471mil    256.676mil      -2370mil        290mil  -2325.416mil    225.022mil  T         83.00 Enable         
+P15        HDR1X3           -1140.085mil   1368.358mil      -1222mil       1311mil      -1222mil       1311mil  T         35.00 DAC Select     
+J14        CONN_BM04B-SRSS-TB(LF)(SN)  -1580.141mil   1429.446mil  -1529.881mil   1435.395mil  -1573.426mil   1369.717mil  T         15.00 To Thermistor  
+J13        CONN_BM04B-SRSS-TB(LF)(SN)   -810.159mil   1969.703mil   -774.916mil   1982.409mil   -766.056mil   1904.106mil  T         55.00 To Thermistor  
+U10        SOT95P280X145-5N   -1496.61mil   1228.972mil   -1496.61mil   1228.972mil  -1473.271mil   1286.378mil  T        285.00 LMP2011MFX/NOPB
+U8         SOT95P280X145-5N   -616.381mil   1846.183mil   -616.381mil   1846.183mil   -635.403mil    1905.16mil  T        325.00 LMP2011MFX/NOPB
+U7         21-0051H         -1322.066mil   1047.896mil  -1306.747mil   1037.169mil   -1299.34mil   1091.797mil  T        215.00 MAX6045BEUR    
+C15        1608[0603]       -1398.913mil   1232.529mil  -1398.913mil   1232.529mil  -1406.046mil   1259.149mil  T        285.00 100V           
+C14        1608[0603]        -543.254mil   1912.525mil   -543.254mil   1912.525mil   -565.829mil   1928.332mil  T        325.00 100V           
+C13        1608[0603]       -1388.663mil    979.812mil  -1388.663mil    979.812mil  -1372.855mil    957.236mil  T        125.00 100V           
+C12        1608[0603]       -1224.832mil   1094.527mil  -1224.832mil   1094.527mil  -1209.025mil   1071.952mil  T        125.00 25V            
+D9         DIO_MM3Z3V0T1G         509mil       -403mil        509mil       -403mil        509mil   -446.799mil  T        270.00 NSR0320        
+BT         BAT_BK-917             701mil       2110mil        701mil       2110mil        701mil       2110mil  T        160.00 BK-917         
+J15        MOLEX_503182-1852     -1.968mil   2163.169mil          0mil   2164.055mil   -114.173mil   2414.252mil  T        360.00 503182-1852    
+P17        D36V28Fx,_3A     -1235.645mil  -1345.513mil      -1271mil      -1593mil      -1271mil      -1593mil  T        315.00 D36V28F5       
+C6         1608[0603]        -136.585mil   1181.108mil   -136.585mil   1181.108mil    -114.01mil   1196.916mil  T        215.00 16V            
+C5         1608[0603]               6mil        948mil          6mil        948mil    -16.575mil    932.193mil  T         35.00 16V            
+U2         MPRLS0300YG00000     -51.32mil   1069.903mil     -51.32mil   1069.903mil    -90.198mil    981.641mil  T         35.00 MPRLS0300YG00001
+D8         DIOM4325X250N     1342.993mil   1495.741mil   1342.993mil   1495.741mil   1295.233mil   1427.532mil  T        235.00 S1M            
+D7         DIOM4325X250N       1680.1mil   1067.868mil     1680.1mil   1067.868mil   1616.313mil   1014.344mil  T        220.00 S1M            
+D6         DIOM4325X250N     1925.977mil    584.163mil   1925.976mil    584.163mil    1850.51mil    548.972mil  T        205.00 S1M            
+D5         DIOM4325X250N     2023.761mil     45.587mil   2023.761mil     45.587mil   1941.758mil     31.128mil  T        190.00 S1M            
+D4         DIOM4325X250N       1935.2mil    -525.84mil     1935.2mil    -525.84mil   1853.197mil    -511.38mil  T        170.00 S1M            
+D3         DIOM4325X250N     1710.441mil   -1024.38mil   1710.441mil   -1024.38mil   1634.975mil   -989.189mil  T        155.00 S1M            
+D2         DIOM4325X250N     1352.279mil  -1456.551mil   1352.279mil  -1456.551mil   1288.492mil  -1403.027mil  T        140.00 S1M            
+D1         DIOM4325X250N      902.499mil  -1790.011mil    902.499mil  -1790.011mil    854.738mil  -1721.802mil  T        125.00 S1M            
+Q8         SOT230P700X180-4N    891.864mil    1314.32mil    928.952mil   1340.289mil    786.466mil   1294.671mil  T         55.00 BUK98150-55A/CUF
+Q7         SOT230P700X180-4N   1209.911mil    991.285mil   1239.014mil   1025.969mil   1089.577mil   1018.783mil  T         40.00 BUK98150-55A/CUF
+Q6         SOT230P700X180-4N   1469.338mil    618.114mil   1488.472mil    659.148mil   1342.267mil    690.884mil  T         25.00 BUK98150-55A/CUF
+Q5         SOT230P700X180-4N   1612.461mil    211.978mil   1620.323mil    232.659mil   1487.314mil    301.154mil  T         10.00 BUK98150-55A/CUF
+P12        HDR2X3_CEN        2133.339mil    959.855mil   2220.916mil    890.355mil   2220.916mil    890.355mil  T        115.00 Power Select   
+P10        HDR2X3_CEN        2321.046mil   -334.215mil   2352.921mil   -441.379mil   2352.921mil   -441.379mil  T         80.00 Power Select   
+P8         HDR2X3_CEN        1784.079mil  -1481.333mil   1758.103mil  -1590.077mil   1758.103mil  -1590.077mil  T         50.00 Power Select   
+J12        MOLEX_430450226   1179.899mil   1688.703mil   1104.771mil   1591.386mil   1104.771mil   1591.386mil  T        325.00 430450226      
+P14        HDR2X3_CEN         1337.07mil   1923.142mil   1447.664mil   1906.742mil   1447.664mil   1906.742mil  T        145.00 Power Select   
+P13        HDR2X3_CEN         1784.08mil   1483.333mil    1886.66mil   1438.868mil   1886.661mil   1438.868mil  T        130.00 Power Select   
+J7         MOLEX_430450226   1861.535mil   -827.116mil   1766.285mil   -766.694mil   1766.285mil   -766.694mil  T        245.00 430450226      
+J5         MOLEX_430450226   1157.172mil  -1690.449mil   1082.044mil  -1593.132mil   1082.044mil  -1593.132mil  T        215.00 430450226      
+J6         MOLEX_430450226    1566.62mil  -1302.656mil   1473.832mil  -1221.005mil   1473.832mil  -1221.005mil  T        230.00 430450226      
+P7         HDR2X3_CEN        1314.342mil  -1924.888mil   1261.106mil  -2023.203mil   1261.106mil  -2023.203mil  T         35.00 Power Select   
+P9         HDR2X3_CEN        2133.339mil   -937.855mil   2136.393mil  -1049.617mil   2136.393mil  -1049.617mil  T         65.00 Power Select   
+P11        HDR2X3_CEN        2321.046mil    356.215mil   2387.651mil    266.417mil   2387.651mil    266.417mil  T        100.00 Power Select   
+J8         MOLEX_430450226   2008.834mil   -290.824mil   1922.198mil   -263.888mil   1922.198mil   -263.888mil  T        260.00 430450226      
+J9         MOLEX_430450226   2008.834mil    312.824mil   1922.199mil    285.888mil   1922.199mil    285.888mil  T        280.00 430450226      
+J10        MOLEX_430450226   1861.535mil    849.115mil   1766.285mil    788.694mil   1766.285mil    788.694mil  T        295.00 430450226      
+J11        MOLEX_430450226    1566.62mil   1304.656mil   1473.832mil   1223.004mil   1473.832mil   1223.004mil  T        310.00 430450226      
+Q1         SOT230P700X180-4N    869.136mil  -1316.066mil    906.224mil  -1342.035mil     912.09mil   -1192.54mil  T        305.00 BUK98150-55A/CUF
+Q2         SOT230P700X180-4N   1209.911mil   -989.286mil   1239.014mil  -1023.969mil   1205.988mil    -878.05mil  T        320.00 BUK98150-55A/CUF
+Q3         SOT230P700X180-4N   1469.338mil   -596.115mil   1488.472mil   -637.148mil   1418.804mil    -504.75mil  T        335.00 BUK98150-55A/CUF
+Q4         SOT230P700X180-4N   1612.461mil   -189.979mil   1620.323mil   -210.659mil   1518.762mil   -100.804mil  T        350.00 BUK98150-55A/CUF
+U4         MODULE_ADAFRUIT_QT_PY       -465mil        616mil       -465mil        616mil   -882.818mil    689.673mil  T         35.00 Check availability
+R11        J1-0603          -1600.998mil   1221.707mil  -1600.998mil   1221.707mil  -1593.356mil   1193.186mil  T        105.00 SQRT( R_0C*R_40C)
+C4         1608[0603]             390mil       1677mil        390mil       1677mil    417.454mil   1674.598mil  T        175.00 50V            
+C3         1608[0603]             385mil       1629mil        385mil       1629mil    412.454mil   1626.598mil  T        175.00 16V            
+J4         JST_SM04B-SRSS-TB(LF)(SN)   -953.054mil    201.297mil    -888.34mil    124.135mil   -936.719mil     90.259mil  B         35.00 Qwiic          
+P2         MOLEX_430451214   -2092.07mil    763.585mil      -1898mil        988mil      -1898mil        988mil  T         70.00 Output Power   
+R9         0402               320.606mil     -2.721mil    320.606mil     -2.721mil    340.291mil     -2.721mil  T        180.00 Res3           
+P6         4P_Mini-SPOX     -1082.938mil   1542.318mil       -962mil       1627mil  -1203.876mil   1457.637mil  T         35.00 to LASER       
+C2         1608[0603]             537mil        595mil        537mil        595mil    564.559mil        595mil  T        180.00 25V            
+C1         1608[0603]             527mil        364mil        527mil        364mil    554.559mil        364mil  T        180.00 16V            
+R1         J1-0603                628mil        453mil        628mil        453mil        628mil    423.473mil  T         90.00 Res3           
+U1         SOT95P285X140-5N    547.134mil    478.032mil    547.134mil    478.032mil    509.732mil    431.378mil  T         90.00 AP2112K-3.3TRG1
+R10        J1-0603            -690.53mil   1775.156mil    -690.53mil   1775.156mil   -666.343mil    1758.22mil  T        145.00 Res3           
+U9         SO16W                  264mil       1386mil        264mil       1386mil    454.118mil   1551.159mil  T        175.00 DS3231S#T&R    
+J1         4P_VERT             96.755mil    843.171mil     97.847mil    753.902mil     97.847mil    753.902mil  T         35.00 Qwiic          
+J3         JST_SM04B-SRSS-TB(LF)(SN)   -770.285mil    -28.163mil       -835mil         49mil   -883.379mil     15.125mil  T         35.00 Qwiic          
+J2         4P_vert           -935.093mil    174.151mil       -934mil     84.882mil       -934mil     84.882mil  T         35.00 Qwiic          
+R4         0402                623.25mil       -162mil     623.25mil       -162mil     623.25mil   -142.315mil  T        270.00 Res3           
+R3         0402                 670.5mil       -162mil      670.5mil       -162mil      670.5mil   -142.315mil  T        270.00 Res3           
+U3         SOP50P490X110-10N       -936mil       1054mil       -936mil       1054mil   -844.077mil   1070.303mil  T        215.00 MCP4728-E/UN   
+C7         1608[0603]            -797mil       1004mil       -797mil       1004mil   -812.807mil   1026.575mil  T        305.00 16V            
+C8         1608[0603]            -744mil       1041mil       -744mil       1041mil   -759.807mil   1063.575mil  T        305.00 50V            
+C11        1608[0603]             396mil       -145mil        396mil       -145mil    423.559mil       -145mil  T        180.00 16V            
+P5         15P_VERT         -1693.192mil    632.998mil      -1732mil        340mil      -1732mil        340mil  T         70.00 Aux. Output    
+R7         0402                   576mil       -162mil        576mil       -162mil        576mil   -142.315mil  T        270.00 Res3           
+R8         0402                   321mil         32mil        321mil         32mil    340.685mil         32mil  T        180.00 Res3           
+U6         TSSOP28-0.65-9.7X4.4MM    546.984mil     65.669mil    546.984mil     65.669mil    669.034mil   -100.671mil  T         90.00 PCA9685PW,112  
+P1         2X4_VERTICAL     -1686.366mil  -1587.371mil      -1640mil      -1541mil  -1472.911mil  -1624.651mil  T        135.00 Input Power    
+U5         MPRLS0300YG00000  -1086.223mil    406.742mil  -1086.223mil    406.742mil  -1125.102mil     318.48mil  T         35.00 MPRLS0300YG00001
+C9         1608[0603]       -1166.524mil    521.423mil  -1166.524mil    521.423mil  -1189.099mil    505.616mil  T         35.00 16V            
+C10        1608[0603]           -1026mil        282mil      -1026mil        282mil  -1048.575mil    266.193mil  T         35.00 16V            
+R5         0402                717.75mil       -162mil     717.75mil       -162mil     717.75mil   -142.315mil  T        270.00 Res3           
+R6         0402                   765mil       -162mil        765mil       -162mil        765mil   -142.315mil  T        270.00 Res3           
+R21        0402                  -197mil       1825mil       -197mil       1825mil       -197mil   1805.315mil  T         90.00 Res3           
+R2         0402              -814.648mil   1163.553mil   -814.648mil   1163.553mil   -830.773mil   1152.262mil  T         35.00 Res3           
+

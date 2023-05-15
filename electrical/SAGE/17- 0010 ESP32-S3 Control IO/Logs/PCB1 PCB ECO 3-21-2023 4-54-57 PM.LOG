@@ -1,0 +1,30 @@
+Change Component Footprint: Designator=J2 Old Footprint=JST_SM04B-SRSS-TB(LF)(SN) New Footprint=4P vert
+Change Component Footprint: Designator=J4 Old Footprint=JST_SM04B-SRSS-TB(LF)(SN) New Footprint=4P vert
+Change Component Comment : Designator=U3 Old Comment=Check availability New Comment=MCP4728-E/UN
+Change Component Comment : Designator=J4 Old Comment=Off board Qwiic BOTTOM New Comment=Qwiic
+Change Component Comment : Designator=J2 Old Comment=Off board Qwiic TOP New Comment=Qwiic
+Change Component Description : Designator=U9 Old Description= New Description=Real-Time Clock
+Change Component Description : Designator=D1 Old Description=1A, 1000V, Standard Recovery Rectifier New Description=DIODE GEN PURP 1KV 1A SMA
+Change Component Description : Designator=D2 Old Description=1A, 1000V, Standard Recovery Rectifier New Description=DIODE GEN PURP 1KV 1A SMA
+Change Component Description : Designator=D3 Old Description=1A, 1000V, Standard Recovery Rectifier New Description=DIODE GEN PURP 1KV 1A SMA
+Change Component Description : Designator=D4 Old Description=1A, 1000V, Standard Recovery Rectifier New Description=DIODE GEN PURP 1KV 1A SMA
+Change Component Description : Designator=D5 Old Description=1A, 1000V, Standard Recovery Rectifier New Description=DIODE GEN PURP 1KV 1A SMA
+Change Component Description : Designator=D6 Old Description=1A, 1000V, Standard Recovery Rectifier New Description=DIODE GEN PURP 1KV 1A SMA
+Change Component Description : Designator=D7 Old Description=1A, 1000V, Standard Recovery Rectifier New Description=DIODE GEN PURP 1KV 1A SMA
+Change Component Description : Designator=D8 Old Description=1A, 1000V, Standard Recovery Rectifier New Description=DIODE GEN PURP 1KV 1A SMA
+Change Component Description : Designator=C6 Old Description=Capacitor 10V New Description=Capacitor, 10uF, 10V, 10%
+Change Component Description : Designator=C4 Old Description=Capacitor (Semiconductor SIM Model) New Description=Capacitor 0.1uF, 10V, 10%
+Change Component Description : Designator=C3 Old Description=Capacitor (Semiconductor SIM Model) New Description=Capacitor 10uF, 10V, 10%
+Change Component Description : Designator=C8 Old Description=Capacitor (Semiconductor SIM Model) New Description=Capacitor, 0.1uF, >10V, 10%
+Change Component Description : Designator=C5 Old Description=Capacitor (Semiconductor SIM Model) New Description=Capacitor, 10uF, >10V, 10%
+Change Component Description : Designator=C7 Old Description=Capacitor (Semiconductor SIM Model) New Description=Capacitor, 10uF, >10V, 10%
+Change Component Description : Designator=P6 Old Description=Header, 4-Pin New Description=Connector Header Through Hole, Right Angle 4 position 0.098" (2.50mm)
+Change Component Description : Designator=Q1 Old Description=N-Channel 55V 5.5A _Tc_ 8W _Tc_ Surface Mount SOT-223 New Description=N-MOSFET N-CH 55V 5.5A SOT223
+Change Component Description : Designator=Q2 Old Description=N-Channel 55V 5.5A _Tc_ 8W _Tc_ Surface Mount SOT-223 New Description=N-MOSFET N-CH 55V 5.5A SOT223
+Change Component Description : Designator=Q3 Old Description=N-Channel 55V 5.5A _Tc_ 8W _Tc_ Surface Mount SOT-223 New Description=N-MOSFET N-CH 55V 5.5A SOT223
+Change Component Description : Designator=Q4 Old Description=N-Channel 55V 5.5A _Tc_ 8W _Tc_ Surface Mount SOT-223 New Description=N-MOSFET N-CH 55V 5.5A SOT223
+Change Component Description : Designator=Q5 Old Description=N-Channel 55V 5.5A _Tc_ 8W _Tc_ Surface Mount SOT-223 New Description=N-MOSFET N-CH 55V 5.5A SOT223
+Change Component Description : Designator=Q6 Old Description=N-Channel 55V 5.5A _Tc_ 8W _Tc_ Surface Mount SOT-223 New Description=N-MOSFET N-CH 55V 5.5A SOT223
+Change Component Description : Designator=Q7 Old Description=N-Channel 55V 5.5A _Tc_ 8W _Tc_ Surface Mount SOT-223 New Description=N-MOSFET N-CH 55V 5.5A SOT223
+Change Component Description : Designator=Q8 Old Description=N-Channel 55V 5.5A _Tc_ 8W _Tc_ Surface Mount SOT-223 New Description=N-MOSFET N-CH 55V 5.5A SOT223
+Change Component Description : Designator=R2 Old Description=Resistor New Description=Resistor, 1/8W, 1%

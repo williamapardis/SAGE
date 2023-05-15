@@ -1,0 +1,81 @@
+Importer Log Report
+Project : 17- 0010 ESP32-S3 Control IO.PrjPcb
+
+Section : Import Document - G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\import\TLV9002.lia
+    Section : PCB Library - TLV9002.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token poly On Line 362
+            Warning - 1 : Skipping Token poly On Line 402
+            Warning - 1 : Skipping Token poly On Line 514
+            Warning - 1 : Skipping Token poly On Line 554
+            Warning - 1 : Skipping Token TLV9002DSG On Line 612
+            Warning - 1 : Skipping Token attachedSymbol On Line 712
+        EndSection
+
+        Section : Import Messages
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+            Warning : Ellipse solder shape converted to solid region
+        EndSection
+    EndSection
+
+    Section : SCH Library - TLV9002.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 10
+            Warning - 1 : Skipping Token padStyleDef On Line 20
+            Warning - 1 : Skipping Token padStyleDef On Line 30
+            Warning - 1 : Skipping Token multiLayer On Line 311
+            Warning - 1 : Skipping Token layerContents On Line 325
+            Warning - 1 : Skipping Token layerContents On Line 328
+            Warning - 1 : Skipping Token layerContents On Line 331
+            Warning - 1 : Skipping Token layerContents On Line 334
+            Warning - 1 : Skipping Token layerContents On Line 337
+            Warning - 1 : Skipping Token layerContents On Line 340
+            Warning - 1 : Skipping Token layerContents On Line 343
+            Warning - 1 : Skipping Token layerContents On Line 346
+            Warning - 1 : Skipping Token layerContents On Line 349
+            Warning - 1 : Skipping Token layerContents On Line 352
+            Warning - 1 : Skipping Token layerContents On Line 355
+            Warning - 1 : Skipping Token layerContents On Line 358
+            Warning - 1 : Skipping Token layerContents On Line 361
+            Warning - 1 : Skipping Token layerContents On Line 401
+            Warning - 1 : Skipping Token layerContents On Line 441
+            Warning - 1 : Skipping Token layerContents On Line 444
+            Warning - 1 : Skipping Token layerContents On Line 447
+            Warning - 1 : Skipping Token layerContents On Line 450
+            Warning - 1 : Skipping Token layerContents On Line 453
+            Warning - 1 : Skipping Token layerContents On Line 456
+            Warning - 1 : Skipping Token multiLayer On Line 465
+            Warning - 1 : Skipping Token layerContents On Line 477
+            Warning - 1 : Skipping Token layerContents On Line 480
+            Warning - 1 : Skipping Token layerContents On Line 483
+            Warning - 1 : Skipping Token layerContents On Line 486
+            Warning - 1 : Skipping Token layerContents On Line 489
+            Warning - 1 : Skipping Token layerContents On Line 492
+            Warning - 1 : Skipping Token layerContents On Line 495
+            Warning - 1 : Skipping Token layerContents On Line 498
+            Warning - 1 : Skipping Token layerContents On Line 501
+            Warning - 1 : Skipping Token layerContents On Line 504
+            Warning - 1 : Skipping Token layerContents On Line 507
+            Warning - 1 : Skipping Token layerContents On Line 510
+            Warning - 1 : Skipping Token layerContents On Line 513
+            Warning - 1 : Skipping Token layerContents On Line 553
+            Warning - 1 : Skipping Token layerContents On Line 593
+            Warning - 1 : Skipping Token layerContents On Line 596
+            Warning - 1 : Skipping Token layerContents On Line 599
+            Warning - 1 : Skipping Token layerContents On Line 602
+            Warning - 1 : Skipping Token layerContents On Line 605
+            Warning - 1 : Skipping Token layerContents On Line 608
+            Warning - 1 : Skipping Token defaultPinDes On Line 624
+            Warning - 1 : Skipping Token defaultPinDes On Line 632
+            Warning - 1 : Skipping Token defaultPinDes On Line 640
+            Warning - 1 : Skipping Token defaultPinDes On Line 648
+            Warning - 1 : Skipping Token defaultPinDes On Line 656
+            Warning - 1 : Skipping Token defaultPinDes On Line 664
+            Warning - 1 : Skipping Token defaultPinDes On Line 672
+            Warning - 1 : Skipping Token defaultPinDes On Line 680
+            Warning - 1 : Skipping Token defaultPinDes On Line 688
+        EndSection
+    EndSection
+EndSection

@@ -1,0 +1,13 @@
+Added Component: Designator=D?(1608[0603])
+Added Component: Designator=R?(1608[0603])
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=+3.3V Pin=U1-8
+Added Pin To Net: NetName=+3.3V Pin=U1-12
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=U1-1
+Added Net: Name=NetD?_1
+Added Pin To Net: NetName=NetD?_2 Pin=D?-2
+Added Pin To Net: NetName=NetD?_2 Pin=R?-2
+Added Net: Name=NetD?_2
+Added Member To Class: ClassName=Sheet1 Member=Component D? Diode
+Added Member To Class: ClassName=Sheet1 Member=Component R? Res3

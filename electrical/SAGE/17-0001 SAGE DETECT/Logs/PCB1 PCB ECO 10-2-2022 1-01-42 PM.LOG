@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=SDO Pin=J3-4
+Removed Pin From Net: NetName=SCK Pin=J3-5
+Removed Pin From Net: NetName=SDI Pin=J3-6
+Added Pin To Net: NetName=SDI Pin=J3-3
+Added Pin To Net: NetName=SCK Pin=J3-4
+Added Pin To Net: NetName=SDO Pin=J3-5

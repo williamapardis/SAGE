@@ -1,0 +1,30 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+R12        J1-0603                522mil         64mil        522mil         64mil        522mil     93.528mil  B        270.00 Res3           
+R9         J1-0603                472mil        -35mil        472mil        -35mil        472mil     -5.473mil  B        270.00 Res3           
+C8         1608[0603]             522mil        -35mil        522mil        -35mil        522mil     -7.441mil  B        270.00 Cap Semi       
+U2         SOP65P490X110-8N    326.985mil    -36.641mil    326.985mil    -36.641mil    243.525mil    -75.031mil  B        360.00 Op Amp Dual GP R-R I/O ±2.75V/5.5V 8-Pin MSOP T/R Check availability
+R5         1608[0603]            1056mil       -255mil       1056mil       -255mil   1063.133mil    -228.38mil  B        255.00 Res3           
+R4         1608[0603]             509mil       -171mil        509mil       -171mil    482.043mil    -165.27mil  B        348.00 Res3           
+R1         1608[0603]         802.789mil   -150.919mil    802.789mil   -150.919mil    795.656mil   -177.539mil  B         75.00 Res3           
+D1         1608[0603]             615mil       -195mil        615mil       -195mil    641.957mil    -200.73mil  B        168.00 LTST-C191TGKT  
+C7         J1-0603                328mil       -160mil        328mil       -160mil    298.472mil       -160mil  B        360.00 DNP            
+U1         VREG_LM27762DSSR    945.428mil   -147.912mil    945.428mil   -147.911mil    907.574mil    -99.049mil  B        255.00 Low-Noise Positive- and Negative-Output Charge Pump With Integrated LDO 12-WSON -40 to 85
+R11        J1-0603                328mil       -110mil        328mil       -110mil    357.527mil       -110mil  B        180.00 Res3           
+R10        1608[0603]         271.084mil         70mil    271.084mil         70mil    298.643mil         70mil  B        180.00 DNI            
+R8         1608[0603]         382.886mil         70mil    382.886mil         70mil    410.445mil         70mil  B        180.00 DNI            
+R6         1608[0603]             174mil        -77mil        174mil        -77mil        174mil    -49.441mil  B        270.00 Res3           
+R3         1608[0603]            1081mil       -163mil       1081mil       -163mil   1088.133mil    -136.38mil  B        255.00 Res3           
+R2         1608[0603]         836.673mil    -24.463mil    836.673mil    -24.463mil     829.54mil    -51.083mil  B         75.00 Res3           
+P1         4P_vert           1228.829mil   -258.478mil       1150mil       -274mil       1150mil       -274mil  B         67.00 QIICK Power In 
+J2         LINX_CONMMCX001-SMD    651.441mil    -49.441mil    651.441mil    -49.441mil    651.441mil    -49.441mil  B        348.00 MMXC           
+C6         1608[0603]             119mil        -77mil        119mil        -77mil        119mil    -49.441mil  B        270.00 Cap Semi       
+C5         0402               923.491mil   -243.582mil    923.491mil   -243.582mil    942.505mil   -248.677mil  B        165.00 25V            
+C2         0402              1038.504mil   -152.146mil   1038.503mil   -152.146mil   1033.409mil    -171.16mil  B         75.00 10V            
+C1         0402               962.064mil    -47.806mil    962.064mil    -47.806mil    967.159mil    -28.792mil  B        255.00 10V            
+C3         0402               845.118mil   -174.489mil    845.118mil   -174.489mil    850.213mil   -155.475mil  B         75.00 10V            
+D2         FD05D               58.606mil          0mil         34mil          0mil         34mil    -49.213mil  T        360.00 LED            
+C4         0402              1034.215mil    -75.421mil   1034.215mil    -75.421mil   1053.229mil    -80.516mil  B        165.00 6.3V           
+C9         0402               410.445mil       -145mil    410.445mil       -145mil    410.445mil   -164.685mil  B         90.00 10V            
+C10        0402                   224mil         29mil        224mil         29mil    204.315mil         29mil  B        360.00 10V            
+

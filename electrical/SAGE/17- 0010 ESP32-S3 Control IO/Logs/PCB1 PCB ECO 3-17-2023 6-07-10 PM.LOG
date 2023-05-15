@@ -1,0 +1,4 @@
+Added Component: Designator=R12(0402)
+Added Pin To Net: NetName=CS Pin=R12-1
+Added Pin To Net: NetName=+3.3VDC_0 Pin=R12-2
+Added Member To Class: ClassName=Sheet1 Member=Component R12 Res3

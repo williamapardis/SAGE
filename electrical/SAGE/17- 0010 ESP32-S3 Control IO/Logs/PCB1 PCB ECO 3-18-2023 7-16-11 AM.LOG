@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=VBUS Pin=D9-K
+Change Component Designator: OldDesignator=P? NewDesignator=P15

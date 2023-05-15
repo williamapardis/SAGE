@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+5VDC_0 Pin=C12-2
+Removed Pin From Net: NetName=GND Pin=U2-1
+Removed Pin From Net: NetName=GND Pin=U5-1
+Removed Pin From Net: NetName=+5VDC_0 Pin=U7-1
+Added Pin To Net: NetName=VBUS Pin=C12-2
+Added Pin To Net: NetName=VBUS Pin=U7-1

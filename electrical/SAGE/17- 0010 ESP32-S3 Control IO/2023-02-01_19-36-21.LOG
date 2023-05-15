@@ -1,0 +1,31 @@
+Importer Log Report
+Project : 17- 0010 ESP32-S3 Control IO.PrjPcb
+
+Section : Import Document - G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\import\2023-02-01_19-36-21.lia
+    Section : PCB Library - 2023-02-01_19-36-21.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token poly On Line 322
+            Warning - 1 : Skipping Token poly On Line 366
+            Warning - 1 : Skipping Token poly On Line 390
+            Warning - 1 : Skipping Token poly On Line 833
+            Warning - 1 : Skipping Token poly On Line 877
+            Warning - 1 : Skipping Token poly On Line 901
+            Warning - 1 : Skipping Token poly On Line 1344
+            Warning - 1 : Skipping Token poly On Line 1409
+            Warning - 1 : Skipping Token poly On Line 1433
+            Warning - 1 : Skipping Token MPRLS0300YG00001 On Line 1861
+            Warning - 1 : Skipping Token attachedSymbol On Line 1976
+        EndSection
+    EndSection
+
+    Section : SCH Library - 2023-02-01_19-36-21.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 10
+            Warning - 1 : Skipping Token padStyleDef On Line 20
+            Warning - 1 : Skipping Token padStyleDef On Line 30
+            Warning - 1 : Skipping Token patternDef On Line 304
+            Warning - 1 : Skipping Token patternDef On Line 815
+            Warning - 1 : Skipping Token patternDef On Line 1326
+        EndSection
+    EndSection
+EndSection

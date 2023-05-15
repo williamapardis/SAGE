@@ -1,0 +1,14 @@
+Added Component: Designator=P3(D36V50FXX, 4.5A)
+Added Pin To Net: NetName=EN Pin=P3-1
+Added Pin To Net: NetName=+24VDC_RP1 Pin=P3-2
+Added Pin To Net: NetName=+24VDC Pin=P3-3
+Added Pin To Net: NetName=GND Pin=P3-4
+Added Pin To Net: NetName=GND Pin=P3-5
+Added Pin To Net: NetName=+12VDC Pin=P3-6
+Added Pin To Net: NetName=PG Pin=P3-7
+Added Pin To Net: NetName=+24VDC_RP1 Pin=P3-8
+Added Pin To Net: NetName=+24VDC Pin=P3-9
+Added Pin To Net: NetName=GND Pin=P3-10
+Added Pin To Net: NetName=GND Pin=P3-11
+Added Pin To Net: NetName=+12VDC Pin=P3-12
+Added Member To Class: ClassName=Sheet1 Member=Component P3 D36V50F12

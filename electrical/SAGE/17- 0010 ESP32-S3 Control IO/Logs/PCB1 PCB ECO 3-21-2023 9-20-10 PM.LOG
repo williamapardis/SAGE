@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=CS Pin=R2-1
+Removed Pin From Net: NetName=GND Pin=R2-1
+Removed Pin From Net: NetName=+3.3VDC_0 Pin=R2-2
+Added Component: Designator=R21(0402)
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=R21-1
+Added Pin To Net: NetName=CS Pin=R21-2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=U3-4
+Added Net: Name=NetR2_1
+Added Member To Class: ClassName=Sheet1 Member=Component R21 Res3

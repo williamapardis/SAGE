@@ -1,0 +1,65 @@
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=C7-2
+Removed Pin From Net: NetName=NetC10_1 Pin=C8-1
+Removed Pin From Net: NetName=NetC10_2 Pin=C8-2
+Removed Member From Class: ClassName=Sheet2 Member=P6
+Added Component: Designator=C9(1608[0603])
+Added Component: Designator=C10(1608[0603])
+Added Component: Designator=D1(DIOM4325X250N)
+Added Component: Designator=D2(DIOM4325X250N)
+Added Component: Designator=D3(DIOM4325X250N)
+Added Component: Designator=D4(DIOM4325X250N)
+Added Component: Designator=D5(DIOM4325X250N)
+Added Component: Designator=D6(DIOM4325X250N)
+Added Component: Designator=D7(DIOM4325X250N)
+Added Component: Designator=D8(DIOM4325X250N)
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=+3.3VDC_1 Pin=C7-2
+Added Pin To Net: NetName=NetC10_1 Pin=C8-1
+Added Pin To Net: NetName=NetC10_2 Pin=C8-2
+Added Pin To Net: NetName=NetJ5_1 Pin=D1-A
+Added Pin To Net: NetName=NetJ5_2 Pin=D1-C
+Added Pin To Net: NetName=NetJ6_1 Pin=D2-A
+Added Pin To Net: NetName=NetJ6_2 Pin=D2-C
+Added Pin To Net: NetName=NetJ7_1 Pin=D3-A
+Added Pin To Net: NetName=NetJ7_2 Pin=D3-C
+Added Pin To Net: NetName=NetJ8_1 Pin=D4-A
+Added Pin To Net: NetName=NetJ8_2 Pin=D4-C
+Added Pin To Net: NetName=NetJ9_1 Pin=D5-A
+Added Pin To Net: NetName=NetJ9_2 Pin=D5-C
+Added Pin To Net: NetName=NetJ10_1 Pin=D6-A
+Added Pin To Net: NetName=NetJ10_2 Pin=D6-C
+Added Pin To Net: NetName=NetJ11_1 Pin=D7-A
+Added Pin To Net: NetName=NetJ11_2 Pin=D7-C
+Change Net Name : Old Net Name=NetJ5_1 New Net Name=NetD1_A
+Change Net Name : Old Net Name=NetJ5_2 New Net Name=NetD1_C
+Change Net Name : Old Net Name=NetJ6_1 New Net Name=NetD2_A
+Change Net Name : Old Net Name=NetJ6_2 New Net Name=NetD2_C
+Change Net Name : Old Net Name=NetJ7_1 New Net Name=NetD3_A
+Change Net Name : Old Net Name=NetJ7_2 New Net Name=NetD3_C
+Change Net Name : Old Net Name=NetJ8_1 New Net Name=NetD4_A
+Change Net Name : Old Net Name=NetJ8_2 New Net Name=NetD4_C
+Change Net Name : Old Net Name=NetJ9_1 New Net Name=NetD5_A
+Change Net Name : Old Net Name=NetJ9_2 New Net Name=NetD5_C
+Change Net Name : Old Net Name=NetJ10_1 New Net Name=NetD6_A
+Change Net Name : Old Net Name=NetJ10_2 New Net Name=NetD6_C
+Change Net Name : Old Net Name=NetJ11_1 New Net Name=NetD7_A
+Change Net Name : Old Net Name=NetJ11_2 New Net Name=NetD7_C
+Added Member To Class: ClassName=Sheet1 Member=Component C9 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component C10 Cap Semi
+Added Member To Class: ClassName=Sheet2 Member=Component D1 S1M
+Added Member To Class: ClassName=Sheet2 Member=Component D2 S1M
+Added Member To Class: ClassName=Sheet2 Member=Component D3 S1M
+Added Member To Class: ClassName=Sheet2 Member=Component D4 S1M
+Added Member To Class: ClassName=Sheet2 Member=Component D5 S1M
+Added Member To Class: ClassName=Sheet2 Member=Component D6 S1M
+Added Member To Class: ClassName=Sheet2 Member=Component D7 S1M
+Added Member To Class: ClassName=Sheet2 Member=Component D8 S1M
+Added Member To Class: ClassName=Sheet1 Member=Component J4 Off board Qwiic BOTTOM
+Added Member To Class: ClassName=Sheet2 Member=Component J12 430450226
+Added Member To Class: ClassName=Sheet1 Member=Component P6 to LASER
+Added Member To Class: ClassName=Sheet2 Member=Component P8 Power Select

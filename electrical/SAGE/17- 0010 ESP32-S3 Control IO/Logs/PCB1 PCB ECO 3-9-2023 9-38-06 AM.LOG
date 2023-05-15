@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=BT1-NEG
+Removed Member From Class: ClassName=Sheet1 Member=BT1
+Change Component Comment : Designator=D9 Old Comment=S1M New Comment=NSR0320
+Change Component Description : Designator=D9 Old Description=1A, 1000V, Standard Recovery Rectifier New Description=DIODE SCHOTTKY 20V 1A SOD323
+Change Component Description : Designator=U1 Old Description=AP2112 Series 0.6 A 3.3 V Fixed Output SMT LDO Linear Regulator - SOT23-5 New Description=IC REG LINEAR 3.3V 600MA SOT25
+Change Component Description : Designator=C1 Old Description=Capacitor (Semiconductor SIM Model) New Description=Capacitor 10uF, 10V, 10%
+Change Component Description : Designator=C2 Old Description=Capacitor (Semiconductor SIM Model) New Description=Capacitor 10uF, 10V, 10%
+Change Component Description : Designator=P2 Old Description=Header, 6-Pin, Dual row New Description=CONN HEADER VERT 12POS 3MM
+Change Component Description : Designator=R1 Old Description=Resistor New Description=Resistor, 1/8W, 1%
+Added Component: Designator=BT(BAT_BK-917)
+Added Pin To Net: NetName=GND Pin=BT-NEG
+Added Pin To Net: NetName=NetBT_1+ Pin=BT-1+
+Added Pin To Net: NetName=NetBT_1+ Pin=BT-2+
+Added Pin To Net: NetName=NetBT_1+ Pin=BT-3+
+Added Pin To Net: NetName=NetBT_1+ Pin=BT-4+
+Added Pin To Net: NetName=NetBT_1+ Pin=U9-14
+Added Net: Name=NetBT_1+
+Added Member To Class: ClassName=Sheet1 Member=Component BT BK-917

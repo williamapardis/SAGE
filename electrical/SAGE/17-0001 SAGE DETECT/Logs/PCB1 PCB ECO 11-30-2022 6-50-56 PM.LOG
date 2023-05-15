@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=CNV Pin=J3-1
+Removed Pin From Net: NetName=SDI Pin=J3-2
+Removed Pin From Net: NetName=GND Pin=J3-5
+Removed Pin From Net: NetName=+3.3V Pin=J3-6
+Change Component DesignItemId : Designator=J3 Old DesignItemId=SM06B-SRSS-TB(LF)(SN) New DesignItemId=BM06B-SRSS-TB(LF)(SN)
+Change Component Footprint: Designator=J3 Old Footprint=JST_SM06B-SRSS-TB(LF)(SN) New Footprint=JST_BM06B-SRSS-TB(LF)(SN)
+Change Component Comment : Designator=J3 Old Comment=SH Series 6 Position 1 mm Surface Mount Right Angle Side Entry Shrouded Header New Comment=Connector Header Surface Mount 6 position 0.039" (1.00mm)  Check availability
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=+3.3V Pin=J3-2
+Added Pin To Net: NetName=SDI Pin=J3-5
+Added Pin To Net: NetName=CNV Pin=J3-6
+Change Net Name : Old Net Name=SCK New Net Name=SDO
+Change Net Name : Old Net Name=SDO New Net Name=SCK
+Added Member To Class: ClassName=Sheet1 Member=Component J1 Check availability

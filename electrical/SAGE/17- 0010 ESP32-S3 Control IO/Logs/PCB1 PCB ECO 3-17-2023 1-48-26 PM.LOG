@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=R10 Old Footprint=14-1210 New Footprint=J1-0603
+Change Component Footprint: Designator=R11 Old Footprint=14-1210 New Footprint=J1-0603
+Added Member To Class: ClassName=Sheet4 Member=Component J13 To Thermistor
+Added Member To Class: ClassName=Sheet4 Member=Component J14 To Thermistor

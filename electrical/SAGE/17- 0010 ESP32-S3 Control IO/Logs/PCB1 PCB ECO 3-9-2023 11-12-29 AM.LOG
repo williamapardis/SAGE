@@ -1,0 +1,3 @@
+Added Component: Designator=D9(DIO_MM3Z3V0T1G)
+Added Pin To Net: NetName=+5VDC_0 Pin=D9-A
+Added Member To Class: ClassName=Sheet1 Member=Component D9 NSR0320

@@ -1,0 +1,19 @@
+Added Component: Designator=U7(21-0051H)
+Added Component: Designator=U8(SOT95P280X145-5N)
+Added Component: Designator=U10(SOT95P280X145-5N)
+Added Pin To Net: NetName=+5VDC_0 Pin=U7-1
+Added Pin To Net: NetName=+4.5VREF Pin=U7-2
+Added Pin To Net: NetName=GND Pin=U7-3
+Added Pin To Net: NetName=A2 Pin=U8-1
+Added Pin To Net: NetName=GND Pin=U8-2
+Added Pin To Net: NetName=NetJ13_2 Pin=U8-3
+Added Pin To Net: NetName=A2 Pin=U8-4
+Added Pin To Net: NetName=+5VDC_0 Pin=U8-5
+Added Pin To Net: NetName=A3 Pin=U10-1
+Added Pin To Net: NetName=GND Pin=U10-2
+Added Pin To Net: NetName=NetJ14_2 Pin=U10-3
+Added Pin To Net: NetName=A3 Pin=U10-4
+Added Pin To Net: NetName=+5VDC_0 Pin=U10-5
+Added Member To Class: ClassName=Sheet4 Member=Component U7 MAX6045AEUR
+Added Member To Class: ClassName=Sheet4 Member=Component U8 LMP2011MFX/NOPB
+Added Member To Class: ClassName=Sheet4 Member=Component U10 LMP2011MFX/NOPB

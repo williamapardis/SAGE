@@ -1,0 +1,24 @@
+Added Component: Designator=Q1(TRANS_CSD87503Q3ET)
+Added Component: Designator=Q2(TRANS_CSD87503Q3ET)
+Added Pin To Net: NetName=FET0 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=FET1 Pin=Q1-3
+Added Pin To Net: NetName=GND Pin=Q1-4
+Added Pin To Net: NetName=NetP8_2 Pin=Q1-9.1
+Added Pin To Net: NetName=NetP8_2 Pin=Q1-9.2
+Added Pin To Net: NetName=NetP8_2 Pin=Q1-9
+Added Pin To Net: NetName=NetP6_2 Pin=Q1-10.1
+Added Pin To Net: NetName=NetP6_2 Pin=Q1-10.2
+Added Pin To Net: NetName=NetP6_2 Pin=Q1-10
+Added Pin To Net: NetName=FET2 Pin=Q2-1
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=FET3 Pin=Q2-3
+Added Pin To Net: NetName=GND Pin=Q2-4
+Added Pin To Net: NetName=NetP12_2 Pin=Q2-9.1
+Added Pin To Net: NetName=NetP12_2 Pin=Q2-9.2
+Added Pin To Net: NetName=NetP12_2 Pin=Q2-9
+Added Pin To Net: NetName=NetP10_2 Pin=Q2-10.1
+Added Pin To Net: NetName=NetP10_2 Pin=Q2-10.2
+Added Pin To Net: NetName=NetP10_2 Pin=Q2-10
+Added Member To Class: ClassName=Power Mosfet IO Member=Component Q1 CSD87503Q3ET
+Added Member To Class: ClassName=Power Mosfet IO Member=Component Q2 CSD87503Q3ET

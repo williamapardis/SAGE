@@ -1,0 +1,149 @@
+Removed Pin From Net: NetName=GND Pin=C?-1
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=C?-2
+Removed Pin From Net: NetName=NetP?_1 Pin=P?-1
+Removed Pin From Net: NetName=NetMOSFET?_4 Pin=P?-2
+Removed Pin From Net: NetName=+24VDC Pin=P?-4
+Removed Pin From Net: NetName=NetP?_1 Pin=P?-4
+Removed Pin From Net: NetName=NetP?_1 Pin=P?-5
+Removed Pin From Net: NetName=NetP?_1 Pin=P?-6
+Removed Pin From Net: NetName=SDA Pin=U?-2
+Removed Pin From Net: NetName=SCL Pin=U?-3
+Change Component DesignItemId : Designator=U? Old DesignItemId=ADAFRUIT_QT_PY New DesignItemId=MPRLS0300YG00001
+Change Component DesignItemId : Designator=P? Old DesignItemId=Header 3X2A New DesignItemId=Header 2
+Change Component DesignItemId : Designator=U? Old DesignItemId=MPRLS0300YG00001 New DesignItemId=ADAFRUIT_QT_PY
+Change Component Footprint: Designator=R? Old Footprint=J1-0603 New Footprint=0402
+Change Component Footprint: Designator=U? Old Footprint=MODULE_ADAFRUIT_QT_PY New Footprint=MPRLS0300YG00000
+Change Component Footprint: Designator=U? Old Footprint=MPRLS0300YG00000 New Footprint=MODULE_ADAFRUIT_QT_PY
+Change Component Comment : Designator=U? Old Comment=Check availability New Comment=MPRLS0300YG00001
+Change Component Comment : Designator=R? Old Comment=DNC New Comment=Res3
+Change Component Comment : Designator=U? Old Comment=MPRLS0300YG00001 New Comment=Check availability
+Change Component Comment : Designator=P? Old Comment=Power Select New Comment=Header 2
+Change Component Description : Designator=P? Old Description=Header, 3-Pin, Dual row New Description=Header, 2-Pin
+Added Component: Designator=C?(0402)
+Added Component: Designator=C?(0402)
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(0402)
+Added Component: Designator=C?(0402)
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=E?(PIN1)
+Added Component: Designator=L?(0402-A)
+Added Component: Designator=L?(0402-A)
+Added Component: Designator=P?(HDR2X3_CEN)
+Added Component: Designator=P?(HDR2X3_CEN)
+Added Component: Designator=P?(HDR2X3_CEN)
+Added Component: Designator=P?(HDR2X3_CEN)
+Added Component: Designator=R?(J1-0603)
+Added Component: Designator=R?(J1-0603)
+Added Component: Designator=U?(MPRLS0300YG00000)
+Added Component: Designator=Y?(XTAL_ABM8-40.000MHZ-10-1-U-T)
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=+3.3VDC_1 Pin=C?-2
+Added Pin To Net: NetName=+3.3VDC_1 Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=+24VDC_RP1 Pin=P?-1
+Added Pin To Net: NetName=+24VDC_RP1 Pin=P?-1
+Added Pin To Net: NetName=+24VDC_RP1 Pin=P?-1
+Added Pin To Net: NetName=+24VDC_RP1 Pin=P?-1
+Added Pin To Net: NetName=+24VDC Pin=P?-1
+Added Pin To Net: NetName=EN Pin=P?-1
+Added Pin To Net: NetName=NetP?_1 Pin=P?-1
+Added Pin To Net: NetName=+12VDC Pin=P?-2
+Added Pin To Net: NetName=+12VDC Pin=P?-2
+Added Pin To Net: NetName=+12VDC Pin=P?-2
+Added Pin To Net: NetName=+12VDC Pin=P?-2
+Added Pin To Net: NetName=+24VDC_RP1 Pin=P?-2
+Added Pin To Net: NetName=+24VDC Pin=P?-2
+Added Pin To Net: NetName=NetMOSFET?_4 Pin=P?-2
+Added Pin To Net: NetName=+5VDC Pin=P?-3
+Added Pin To Net: NetName=+5VDC Pin=P?-3
+Added Pin To Net: NetName=+5VDC Pin=P?-3
+Added Pin To Net: NetName=+5VDC Pin=P?-3
+Added Pin To Net: NetName=+24VDC Pin=P?-3
+Added Pin To Net: NetName=+24VDC Pin=P?-4
+Added Pin To Net: NetName=GND Pin=P?-4
+Added Pin To Net: NetName=NetP?_1 Pin=P?-4
+Added Pin To Net: NetName=GND Pin=P?-5
+Added Pin To Net: NetName=NetP?_1 Pin=P?-5
+Added Pin To Net: NetName=GND Pin=P?-6
+Added Pin To Net: NetName=NetP?_1 Pin=P?-6
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=VBUS Pin=U?-1
+Added Pin To Net: NetName=VBUS Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=SDA Pin=U?-2
+Added Pin To Net: NetName=SCL Pin=U?-3
+Added Pin To Net: NetName=+3.3VDC_1 Pin=U?-5
+Added Pin To Net: NetName=+3.3VDC_2 Pin=U?-5
+Added Pin To Net: NetName=SDA Pin=U?-5
+Added Pin To Net: NetName=FET0 Pin=U?-6
+Added Pin To Net: NetName=SCL Pin=U?-6
+Added Pin To Net: NetName=FET1 Pin=U?-7
+Added Pin To Net: NetName=FET2 Pin=U?-8
+Added Pin To Net: NetName=FET3 Pin=U?-9
+Added Pin To Net: NetName=FET4 Pin=U?-10
+Added Pin To Net: NetName=SCL Pin=U?-11
+Added Pin To Net: NetName=+3.3VDC_1 Pin=U?-12
+Added Pin To Net: NetName=SDA Pin=U?-12
+Added Pin To Net: NetName=A0 Pin=U?-1
+Added Net: Name=A0
+Added Pin To Net: NetName=A1 Pin=U?-2
+Added Net: Name=A1
+Added Pin To Net: NetName=A2 Pin=U?-3
+Added Net: Name=A2
+Added Pin To Net: NetName=A3 Pin=U?-4
+Added Net: Name=A3
+Added Net: Name=D+
+Added Net: Name=D-
+Added Pin To Net: NetName=MISO Pin=U?-10
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=U?-11
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=U?-6
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=U?-4
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=RX Pin=U?-8
+Added Net: Name=RX
+Added Pin To Net: NetName=SCK Pin=U?-9
+Added Net: Name=SCK
+Added Pin To Net: NetName=TX Pin=U?-7
+Added Pin To Net: NetName=TX Pin=U?-10
+Added Net: Name=TX
+Added Member To Class: ClassName=Sheet3 Member=Component C? Cap Semi
+Added Member To Class: ClassName=Sheet3 Member=Component E? Antenna
+Added Member To Class: ClassName=Sheet3 Member=Component L? Inductor
+Added Member To Class: ClassName=Sheet3 Member=Component R? Res3
+Added Member To Class: ClassName=Sheet1 Member=Component U? AP2112 Series 0.6 A 3.3 V Fixed Output SMT LDO Linear Regulator - SOT23-5
+Added Member To Class: ClassName=Sheet2 Member=Component U? 310030252 Check availability
+Added Member To Class: ClassName=Sheet3 Member=Component U? Check availability Check availability
+Added Member To Class: ClassName=Sheet3 Member=Component Y? Check availability

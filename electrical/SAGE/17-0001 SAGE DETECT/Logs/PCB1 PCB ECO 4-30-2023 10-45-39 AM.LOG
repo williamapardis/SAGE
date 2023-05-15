@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=+2.4V Pin=R1-1
+Added Pin To Net: NetName=-2.4V Pin=R3-1
+Added Member To Class: ClassName=Sheet1 Member=Component C4 6.3V

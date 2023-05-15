@@ -1,0 +1,66 @@
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=C2-2
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=C5-2
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=C7-2
+Removed Pin From Net: NetName=NetC10_1 Pin=C8-1
+Removed Pin From Net: NetName=NetC10_2 Pin=C8-2
+Removed Pin From Net: NetName=NetC16_1 Pin=C11-1
+Removed Pin From Net: NetName=NetC17_1 Pin=C12-1
+Removed Pin From Net: NetName=NetC18_1 Pin=C14-1
+Removed Pin From Net: NetName=NetR9_1 Pin=R7-1
+Removed Pin From Net: NetName=NetR12_1 Pin=R8-1
+Removed Pin From Net: NetName=NetC27_2 Pin=R8-2
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=U1-5
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=U3-12
+Removed Member From Class: ClassName=Sheet1 Member=C13
+Removed Member From Class: ClassName=Sheet1 Member=C20
+Added Component: Designator=BT(BAT_BU2032SM-JJ-GTR)
+Added Component: Designator=C9(1608[0603])
+Added Component: Designator=C10(1608[0603])
+Added Component: Designator=C16(1608[0603])
+Added Component: Designator=C17(1608[0603])
+Added Component: Designator=C19(1608[0603])
+Added Component: Designator=R9(0402)
+Added Component: Designator=R12(0402)
+Added Pin To Net: NetName=GND Pin=BT-NEG
+Added Pin To Net: NetName=+3.3VDC_1 Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=+3.3VDC_1 Pin=C7-2
+Added Pin To Net: NetName=NetC10_1 Pin=C8-1
+Added Pin To Net: NetName=NetC10_2 Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=NetC16_1 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=NetC17_1 Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=NetC18_1 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=GND Pin=IC1-13
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=NetR9_1 Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=NetR12_1 Pin=R8-1
+Added Pin To Net: NetName=NetC27_2 Pin=R8-2
+Added Pin To Net: NetName=+3.3VDC_1 Pin=U2-5
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C2-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C5-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C7-1
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C8-1
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C11-1
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C12-1
+Added Pin To Net: NetName=+3.3VDC_0 Pin=IC1-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=J1-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=U1-5
+Added Pin To Net: NetName=+3.3VDC_0 Pin=U3-12
+Added Pin To Net: NetName=+3.3VDC_0 Pin=U4-1
+Added Net: Name=+3.3VDC_0
+Added Pin To Net: NetName=NetBT_POS Pin=BT-POS
+Added Pin To Net: NetName=NetBT_POS Pin=IC1-14
+Added Net: Name=NetBT_POS
+Added Member To Class: ClassName=Sheet1 Member=Component BT BU2032SM-JJ-GTR
+Added Member To Class: ClassName=Sheet1 Member=Component C9 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component C10 Cap Semi
+Added Member To Class: ClassName=MCU Member=Component C19 Cap Semi

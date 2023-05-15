@@ -1,0 +1,61 @@
+Importer Log Report
+Project : 17- 0010 ESP32-S3 Control IO.PrjPcb
+
+Section : Import Document - G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\import\CSD18504Q5A.lia
+    Section : PCB Library - CSD18504Q5A.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token poly On Line 373
+            Warning - 1 : Skipping Token poly On Line 381
+            Warning - 1 : Skipping Token poly On Line 389
+            Warning - 1 : Skipping Token poly On Line 397
+            Warning - 1 : Skipping Token CSD18504Q5A On Line 426
+            Warning - 1 : Skipping Token attachedSymbol On Line 544
+        EndSection
+    EndSection
+
+    Section : SCH Library - CSD18504Q5A.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 10
+            Warning - 1 : Skipping Token padStyleDef On Line 20
+            Warning - 1 : Skipping Token padStyleDef On Line 30
+            Warning - 1 : Skipping Token multiLayer On Line 309
+            Warning - 1 : Skipping Token layerContents On Line 321
+            Warning - 1 : Skipping Token layerContents On Line 324
+            Warning - 1 : Skipping Token layerContents On Line 327
+            Warning - 1 : Skipping Token layerContents On Line 330
+            Warning - 1 : Skipping Token layerContents On Line 333
+            Warning - 1 : Skipping Token layerContents On Line 336
+            Warning - 1 : Skipping Token layerContents On Line 339
+            Warning - 1 : Skipping Token layerContents On Line 342
+            Warning - 1 : Skipping Token layerContents On Line 345
+            Warning - 1 : Skipping Token layerContents On Line 348
+            Warning - 1 : Skipping Token layerContents On Line 351
+            Warning - 1 : Skipping Token layerContents On Line 354
+            Warning - 1 : Skipping Token layerContents On Line 357
+            Warning - 1 : Skipping Token layerContents On Line 360
+            Warning - 1 : Skipping Token layerContents On Line 363
+            Warning - 1 : Skipping Token layerContents On Line 366
+            Warning - 1 : Skipping Token layerContents On Line 369
+            Warning - 1 : Skipping Token layerContents On Line 372
+            Warning - 1 : Skipping Token layerContents On Line 380
+            Warning - 1 : Skipping Token layerContents On Line 388
+            Warning - 1 : Skipping Token layerContents On Line 396
+            Warning - 1 : Skipping Token layerContents On Line 404
+            Warning - 1 : Skipping Token layerContents On Line 407
+            Warning - 1 : Skipping Token layerContents On Line 410
+            Warning - 1 : Skipping Token layerContents On Line 413
+            Warning - 1 : Skipping Token layerContents On Line 416
+            Warning - 1 : Skipping Token layerContents On Line 419
+            Warning - 1 : Skipping Token layerContents On Line 422
+            Warning - 1 : Skipping Token defaultPinDes On Line 434
+            Warning - 1 : Skipping Token defaultPinDes On Line 442
+            Warning - 1 : Skipping Token defaultPinDes On Line 450
+            Warning - 1 : Skipping Token defaultPinDes On Line 483
+            Warning - 1 : Skipping Token defaultPinDes On Line 491
+            Warning - 1 : Skipping Token defaultPinDes On Line 499
+            Warning - 1 : Skipping Token defaultPinDes On Line 507
+            Warning - 1 : Skipping Token defaultPinDes On Line 515
+            Warning - 1 : Skipping Token defaultPinDes On Line 523
+        EndSection
+    EndSection
+EndSection

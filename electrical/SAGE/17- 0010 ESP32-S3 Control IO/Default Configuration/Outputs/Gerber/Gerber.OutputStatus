@@ -1,0 +1,26 @@
+[OutputStatus]
+OutputFileNames0=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GTL
+OutputFileNames1=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.G1
+OutputFileNames2=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.G2
+OutputFileNames3=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GBL
+OutputFileNames4=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GPB
+OutputFileNames5=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GPT
+OutputFileNames6=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GTO
+OutputFileNames7=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GTP
+OutputFileNames8=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GTS
+OutputFileNames9=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GBS
+OutputFileNames10=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GBP
+OutputFileNames11=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GBO
+OutputFileNames12=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.Outline
+OutputFileNames13=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.Assembly Top
+OutputFileNames14=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.Assembly Bottom
+OutputFileNames15=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.3D Top
+OutputFileNames16=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.3D Bottom
+OutputFileNames17=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.Courtyard Top
+OutputFileNames18=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GM22
+OutputFileNames19=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.GM30
+OutputFileNames20=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.RUL
+OutputFileNames21=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.EXTREP
+OutputFileNames22=G:\My Drive\PCBs\SAGE\17- 0010 ESP32-S3 Control IO\Default Configuration\Outputs\Gerber\PCB1.REP
+Success=1
+HasRun=1

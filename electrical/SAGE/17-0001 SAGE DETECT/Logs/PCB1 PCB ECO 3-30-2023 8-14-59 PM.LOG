@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetC6_1 Pin=R7-2
+Removed Member From Class: ClassName=Sheet1 Member=R7
+Added Pin To Net: NetName=NetC6_1 Pin=D2-1
+Added Pin To Net: NetName=NetC6_1 Pin=D2-1

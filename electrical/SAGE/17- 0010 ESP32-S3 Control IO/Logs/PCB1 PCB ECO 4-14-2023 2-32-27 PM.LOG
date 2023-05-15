@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=GND Pin=P6-2
+Removed Pin From Net: NetName=+5VDC_0 Pin=P6-3
+Removed Pin From Net: NetName=VB Pin=P6-4
+Removed Pin From Net: NetName=VA Pin=P15-1
+Removed Pin From Net: NetName=+3.3VDC_0 Pin=R21-1
+Added Component: Designator=P16(HDR1X3)
+Added Component: Designator=R12(0402)
+Added Component: Designator=R22(0402)
+Added Component: Designator=R23(0402)
+Added Component: Designator=R24(0402)
+Added Pin To Net: NetName=+5VDC_0 Pin=P6-2
+Added Pin To Net: NetName=GND Pin=P6-3
+Added Pin To Net: NetName=VB Pin=P15-1
+Added Pin To Net: NetName=VA Pin=P16-1
+Added Pin To Net: NetName=A1 Pin=P16-3
+Added Pin To Net: NetName=+3.3VDC_0 Pin=R12-1
+Added Pin To Net: NetName=SDA Pin=R12-2
+Added Pin To Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=+3.3VDC_0 Pin=R22-1
+Added Pin To Net: NetName=SCL Pin=R22-2
+Added Pin To Net: NetName=+3.3VDC_1 Pin=R23-1
+Added Pin To Net: NetName=SDA1 Pin=R23-2
+Added Pin To Net: NetName=+3.3VDC_1 Pin=R24-1
+Added Pin To Net: NetName=SCL1 Pin=R24-2
+Added Pin To Net: NetName=NetP6_4 Pin=P6-4
+Added Pin To Net: NetName=NetP6_4 Pin=P16-2
+Added Net: Name=NetP6_4
+Added Member To Class: ClassName=Sheet1 Member=Component P16 DAC Select
+Added Member To Class: ClassName=Sheet1 Member=Component R12 Res3
+Added Member To Class: ClassName=Sheet1 Member=Component R22 Res3
+Added Member To Class: ClassName=Sheet1 Member=Component R23 Res3
+Added Member To Class: ClassName=Sheet1 Member=Component R24 Res3

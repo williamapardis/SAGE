@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=C7-2
+Removed Pin From Net: NetName=NetC10_1 Pin=C8-1
+Removed Pin From Net: NetName=NetC10_2 Pin=C8-2
+Removed Pin From Net: NetName=+5VDC Pin=P2-7
+Removed Pin From Net: NetName=+5VDC Pin=P2-8
+Removed Pin From Net: NetName=+5VDC Pin=P13-3
+Removed Member From Class: ClassName=Sheet4 Member=J15
+Removed Member From Class: ClassName=Sheet4 Member=J16
+Removed Member From Class: ClassName=Sheet4 Member=P15
+Removed Member From Class: ClassName=Sheet4 Member=P16
+Removed Member From Class: ClassName=Sheet4 Member=R12
+Removed Member From Class: ClassName=Sheet4 Member=R13
+Removed Member From Class: ClassName=Sheet4 Member=U8
+Added Component: Designator=C9(1608[0603])
+Added Component: Designator=C10(1608[0603])
+Added Component: Designator=D9(DIOM4325X250N)
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=+3.3VDC_1 Pin=C7-2
+Added Pin To Net: NetName=NetC10_1 Pin=C8-1
+Added Pin To Net: NetName=NetC10_2 Pin=C8-2
+Added Pin To Net: NetName=VBUS Pin=D9-C
+Added Pin To Net: NetName=GND Pin=P17-2
+Added Pin To Net: NetName=GND Pin=P17-3
+Added Pin To Net: NetName=+24VDC_RP2 Pin=P17-4
+Added Pin To Net: NetName=EN Pin=P17-5
+Added Pin To Net: NetName=PG Pin=P17-6
+Change Net Name : Old Net Name=+5VDC New Net Name=+5VDC_1
+Added Pin To Net: NetName=+5VDC_0 Pin=D9-A
+Added Pin To Net: NetName=+5VDC_0 Pin=P17-1
+Added Net: Name=+5VDC_0
+Added Pin To Net: NetName=+5VDC Pin=P2-7
+Added Pin To Net: NetName=+5VDC Pin=P2-8
+Added Pin To Net: NetName=+5VDC Pin=P13-3
+Added Net: Name=+5VDC
+Added Member To Class: ClassName=Sheet1 Member=Component C9 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component C10 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component D9 S1M

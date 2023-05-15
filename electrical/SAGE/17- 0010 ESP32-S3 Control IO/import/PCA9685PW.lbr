@@ -1,0 +1,230 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TSSOP28-0.65-9.7X4.4MM">
+<wire x1="-4.85" y1="2.2" x2="4.85" y2="2.2" width="0.127" layer="21"/>
+<wire x1="4.85" y1="2.2" x2="4.85" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="4.85" y1="-2.2" x2="-4.3193" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-4.3193" y1="-2.2" x2="-4.85" y2="-1.6443" width="0.127" layer="21"/>
+<wire x1="-4.85" y1="-1.6443" x2="-4.85" y2="2.2" width="0.127" layer="21"/>
+<circle x="-5.095" y="-2.555" radius="0.381" width="0" layer="21"/>
+<text x="-1.90733" y="4.45043" size="0.890086" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.90571" y="-0.635236" size="0.889331" layer="27" ratio="11">&gt;VALUE</text>
+<rectangle x1="-4.87787" y1="-2.27634" x2="4.875" y2="2.275" layer="39"/>
+<smd name="1" x="-4.225" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-3.575" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="-2.925" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="-2.275" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="-1.625" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="-0.975" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="7" x="-0.325" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="8" x="0.325" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="9" x="0.975" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="10" x="1.625" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="11" x="2.275" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="12" x="2.925" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="13" x="3.575" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="14" x="4.225" y="-3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="15" x="4.225" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="16" x="3.575" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="17" x="2.925" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="18" x="2.275" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="19" x="1.625" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="20" x="0.975" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="21" x="0.325" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="22" x="-0.325" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="23" x="-0.975" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="24" x="-1.625" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="25" x="-2.275" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="26" x="-2.925" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="27" x="-3.575" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+<smd name="28" x="-4.225" y="3.1" dx="1.15" dy="0.4" layer="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DRIVER-PCA9685PW">
+<wire x1="-8.89" y1="19.05" x2="8.89" y2="19.05" width="0.254" layer="94"/>
+<wire x1="8.89" y1="19.05" x2="8.89" y2="-19.05" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-19.05" x2="-8.89" y2="-19.05" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-19.05" x2="-8.89" y2="-16.51" width="0.254" layer="94"/>
+<text x="-8.9033" y="19.0785" size="1.2719" layer="95" ratio="10">&gt;NAME</text>
+<text x="-1.27068" y="19.0602" size="1.27068" layer="95" ratio="10">&gt;VALUE</text>
+<wire x1="-8.89" y1="-16.51" x2="-8.89" y2="-13.97" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-13.97" x2="-8.89" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="3.81" x2="-8.89" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="6.35" x2="-8.89" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="8.89" x2="-8.89" y2="11.43" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="11.43" x2="-8.89" y2="13.97" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="13.97" x2="-8.89" y2="16.51" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="16.51" x2="-8.89" y2="19.05" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="16.51" x2="-8.89" y2="16.51" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="13.97" x2="-8.89" y2="13.97" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="11.43" x2="-8.89" y2="11.43" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="8.89" x2="-8.89" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="6.35" x2="-8.89" y2="6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="3.81" x2="-8.89" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="1.27" x2="-8.89" y2="1.27" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="-1.27" x2="-8.89" y2="-1.27" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="-3.81" x2="-8.89" y2="-3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="-6.35" x2="-8.89" y2="-6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="-8.89" x2="-8.89" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="-11.43" x2="-8.89" y2="-11.43" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="-13.97" x2="-8.89" y2="-13.97" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="-16.51" x2="-8.89" y2="-16.51" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="16.51" x2="10.16" y2="16.51" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="13.97" x2="10.16" y2="13.97" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="11.43" x2="10.16" y2="11.43" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="8.89" x2="10.16" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="6.35" x2="10.16" y2="6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="3.81" x2="10.16" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="1.27" x2="10.16" y2="1.27" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="-1.27" x2="10.16" y2="-1.27" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="-3.81" x2="10.16" y2="-3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="-6.35" x2="10.16" y2="-6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="-8.89" x2="10.16" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="-11.43" x2="10.16" y2="-11.43" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="-13.97" x2="10.16" y2="-13.97" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="-16.51" x2="10.16" y2="-16.51" width="0.1524" layer="94" style="shortdash"/>
+<pin name="A0" x="-12.7" y="16.51" length="short"/>
+<pin name="A1" x="-12.7" y="13.97" length="short"/>
+<pin name="A2" x="-12.7" y="11.43" length="short"/>
+<pin name="A3" x="-12.7" y="8.89" length="short"/>
+<pin name="A4" x="-12.7" y="6.35" length="short"/>
+<pin name="LED0" x="-12.7" y="3.81" length="short"/>
+<pin name="LED1" x="-12.7" y="1.27" length="short"/>
+<pin name="LED2" x="-12.7" y="-1.27" length="short"/>
+<pin name="LED3" x="-12.7" y="-3.81" length="short"/>
+<pin name="LED4" x="-12.7" y="-6.35" length="short"/>
+<pin name="LED5" x="-12.7" y="-8.89" length="short"/>
+<pin name="LED6" x="-12.7" y="-11.43" length="short"/>
+<pin name="LED7" x="-12.7" y="-13.97" length="short"/>
+<pin name="VSS" x="-12.7" y="-16.51" length="short"/>
+<pin name="LED8" x="12.7" y="-16.51" length="short" rot="R180"/>
+<pin name="LED9" x="12.7" y="-13.97" length="short" rot="R180"/>
+<pin name="LED10" x="12.7" y="-11.43" length="short" rot="R180"/>
+<pin name="LED11" x="12.7" y="-8.89" length="short" rot="R180"/>
+<pin name="LED12" x="12.7" y="-6.35" length="short" rot="R180"/>
+<pin name="LED13" x="12.7" y="-3.81" length="short" rot="R180"/>
+<pin name="LED14" x="12.7" y="-1.27" length="short" rot="R180"/>
+<pin name="LED15" x="12.7" y="1.27" length="short" rot="R180"/>
+<pin name="!OE" x="12.7" y="3.81" length="short" rot="R180"/>
+<pin name="A5" x="12.7" y="6.35" length="short" rot="R180"/>
+<pin name="EXTCLK" x="12.7" y="8.89" length="short" rot="R180"/>
+<pin name="SCL" x="12.7" y="11.43" length="short" rot="R180"/>
+<pin name="SDA" x="12.7" y="13.97" length="short" rot="R180"/>
+<pin name="VDD" x="12.7" y="16.51" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DRIVER-PCA9685PW(TSSOP28)" prefix="U">
+<description>310030252 &lt;a href="https://pricing.snapeda.com/parts/PCA9685PW/NXP%20USA/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRIVER-PCA9685PW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP28-0.65-9.7X4.4MM">
+<connects>
+<connect gate="G$1" pin="!OE" pad="23"/>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="A3" pad="4"/>
+<connect gate="G$1" pin="A4" pad="5"/>
+<connect gate="G$1" pin="A5" pad="24"/>
+<connect gate="G$1" pin="EXTCLK" pad="25"/>
+<connect gate="G$1" pin="LED0" pad="6"/>
+<connect gate="G$1" pin="LED1" pad="7"/>
+<connect gate="G$1" pin="LED10" pad="17"/>
+<connect gate="G$1" pin="LED11" pad="18"/>
+<connect gate="G$1" pin="LED12" pad="19"/>
+<connect gate="G$1" pin="LED13" pad="20"/>
+<connect gate="G$1" pin="LED14" pad="21"/>
+<connect gate="G$1" pin="LED15" pad="22"/>
+<connect gate="G$1" pin="LED2" pad="8"/>
+<connect gate="G$1" pin="LED3" pad="9"/>
+<connect gate="G$1" pin="LED4" pad="10"/>
+<connect gate="G$1" pin="LED5" pad="11"/>
+<connect gate="G$1" pin="LED6" pad="12"/>
+<connect gate="G$1" pin="LED7" pad="13"/>
+<connect gate="G$1" pin="LED8" pad="15"/>
+<connect gate="G$1" pin="LED9" pad="16"/>
+<connect gate="G$1" pin="SCL" pad="26"/>
+<connect gate="G$1" pin="SDA" pad="27"/>
+<connect gate="G$1" pin="VDD" pad="28"/>
+<connect gate="G$1" pin="VSS" pad="14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MP" value="PCA9685PW"/>
+<attribute name="Package" value="None"/>
+<attribute name="Price" value="None"/>
+<attribute name="Availability" value="In Stock"/>
+<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/PCA9685PW/?ref=eda"/>
+<attribute name="MF" value="NXP USA"/>
+<attribute name="Description" value="
+LED Driver IC 16 Output Linear - PWM Dimming 25mA 28-TSSOP
+"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

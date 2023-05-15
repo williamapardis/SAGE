@@ -1,0 +1,12 @@
+Added Component: Designator=D2(1608[0603])
+Added Component: Designator=J4(LINX_CONMMCX013)
+Added Component: Designator=R5(1608[0603])
+Added Pin To Net: NetName=+3.3V Pin=D2-1
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R5-2
+Added Net: Name=NetD2_2
+Added Member To Class: ClassName=Sheet1 Member=Component D2 Diode
+Added Member To Class: ClassName=Sheet1 Member=Component J4 MMCX Jack PCB Cutout Edge Mount Connector  Check availability
+Added Member To Class: ClassName=Sheet1 Member=Component R5 Res3

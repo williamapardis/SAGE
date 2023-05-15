@@ -1,0 +1,73 @@
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=C7-2
+Removed Pin From Net: NetName=NetC10_2 Pin=C8-2
+Removed Pin From Net: NetName=NetC18_1 Pin=C14-1
+Removed Pin From Net: NetName=GND Pin=C14-2
+Removed Pin From Net: NetName=NetP5_4 Pin=P6-1
+Removed Pin From Net: NetName=NetP7_4 Pin=P8-1
+Removed Pin From Net: NetName=NetP9_4 Pin=P10-1
+Removed Pin From Net: NetName=NetP11_4 Pin=P12-1
+Removed Pin From Net: NetName=FET0 Pin=Q1-1
+Removed Pin From Net: NetName=GND Pin=Q1-2
+Removed Pin From Net: NetName=FET1 Pin=Q1-3
+Removed Pin From Net: NetName=GND Pin=Q1-4
+Removed Pin From Net: NetName=FET2 Pin=Q2-1
+Removed Pin From Net: NetName=GND Pin=Q2-2
+Removed Pin From Net: NetName=FET3 Pin=Q2-3
+Removed Pin From Net: NetName=GND Pin=Q2-4
+Removed Pin From Net: NetName=NetR9_1 Pin=R7-1
+Removed Pin From Net: NetName=NetR12_1 Pin=R8-1
+Removed Pin From Net: NetName=NetC27_2 Pin=R8-2
+Removed Member From Class: ClassName=Power Mosfet IO Member=P6
+Removed Member From Class: ClassName=Power Mosfet IO Member=P8
+Removed Member From Class: ClassName=Power Mosfet IO Member=P10
+Removed Member From Class: ClassName=Power Mosfet IO Member=P12
+Removed Member From Class: ClassName=Power Mosfet IO Member=Q1
+Removed Member From Class: ClassName=Power Mosfet IO Member=Q2
+Added Component: Designator=C9(1608[0603])
+Added Component: Designator=C10(1608[0603])
+Added Component: Designator=C16(1608[0603])
+Added Component: Designator=C17(1608[0603])
+Added Component: Designator=C19(1608[0603])
+Added Component: Designator=J8(MOLEX_430450226)
+Added Component: Designator=J9(MOLEX_430450226)
+Added Component: Designator=J10(MOLEX_430450226)
+Added Component: Designator=J11(MOLEX_430450226)
+Added Component: Designator=R9(0402)
+Added Component: Designator=R12(0402)
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=+3.3VDC_1 Pin=C7-2
+Added Pin To Net: NetName=NetC10_1 Pin=C8-1
+Added Pin To Net: NetName=NetC10_2 Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=NetC16_1 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=NetC17_1 Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=NetC18_1 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=NetP5_4 Pin=J8-2
+Added Pin To Net: NetName=NetP7_4 Pin=J9-2
+Added Pin To Net: NetName=NetP9_4 Pin=J10-2
+Added Pin To Net: NetName=NetP11_4 Pin=J11-2
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=NetR9_1 Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=NetR12_1 Pin=R8-1
+Added Pin To Net: NetName=NetC27_2 Pin=R8-2
+Change Net Name : Old Net Name=NetP5_4 New Net Name=NetJ8_2
+Change Net Name : Old Net Name=NetP7_4 New Net Name=NetJ9_2
+Change Net Name : Old Net Name=NetP9_4 New Net Name=NetJ10_2
+Change Net Name : Old Net Name=NetP11_4 New Net Name=NetJ11_2
+Added Member To Class: ClassName=Sheet1 Member=Component C9 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component C10 Cap Semi
+Added Member To Class: ClassName=MCU Member=Component C19 Cap Semi
+Added Member To Class: ClassName=Power Mosfet IO Member=Component J8 430450226
+Added Member To Class: ClassName=Power Mosfet IO Member=Component J9 430450226
+Added Member To Class: ClassName=Power Mosfet IO Member=Component J10 430450226
+Added Member To Class: ClassName=Power Mosfet IO Member=Component J11 430450226
+Added Member To Class: ClassName=Power Mosfet IO Member=Component R9 Res3

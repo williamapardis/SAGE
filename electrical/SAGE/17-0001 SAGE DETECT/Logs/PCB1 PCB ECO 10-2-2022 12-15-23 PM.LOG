@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=J3 Old DesignItemId=BM06B-SRSS-TB(LF)(SN) New DesignItemId=SM06B-SRSS-TB(LF)(SN)
+Change Component Footprint: Designator=J3 Old Footprint=JST_BM06B-SRSS-TB(LF)(SN) New Footprint=JST_SM06B-SRSS-TB(LF)(SN)
+Change Component Comment : Designator=J3 Old Comment=Connector Header Surface Mount 6 position 0.039" (1.00mm) New Comment=SH Series 6 Position 1 mm Surface Mount Right Angle Side Entry Shrouded Header

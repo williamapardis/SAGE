@@ -1,0 +1,22 @@
+[OutputStatus]
+OutputFileNames0=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GTL
+OutputFileNames1=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GBL
+OutputFileNames2=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GPB
+OutputFileNames3=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GPT
+OutputFileNames4=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GTO
+OutputFileNames5=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GTP
+OutputFileNames6=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GTS
+OutputFileNames7=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GBS
+OutputFileNames8=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GBP
+OutputFileNames9=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GBO
+OutputFileNames10=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.Outline
+OutputFileNames11=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.Assembly Top
+OutputFileNames12=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.Assembly Bottom
+OutputFileNames13=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.3D Top
+OutputFileNames14=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GM22
+OutputFileNames15=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.GM30
+OutputFileNames16=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.RUL
+OutputFileNames17=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.EXTREP
+OutputFileNames18=G:\My Drive\PCBs\17-0003-01 SAGE BME280\Default Configuration\Outputs\Gerber\PCB1.REP
+Success=1
+HasRun=1

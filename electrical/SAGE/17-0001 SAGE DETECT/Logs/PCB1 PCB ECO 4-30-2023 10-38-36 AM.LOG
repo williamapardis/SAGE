@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=GND Pin=C4-2
+Change Component Footprint: Designator=C4 Old Footprint=1608[0603] New Footprint=0402
+Change Component Comment : Designator=C1 Old Comment=X7R New Comment=X6S
+Change Component Comment : Designator=C2 Old Comment=X7R New Comment=X6S
+Change Component Comment : Designator=C3 Old Comment=X7R New Comment=X6S
+Change Component Comment : Designator=C4 Old Comment=X7R New Comment=X6S
+Change Component Description : Designator=U1 Old Description= New Description=Charge Pump Switching Regulator IC Positive and Negative (Dual Rail) Adjustable -5V, 1.5V 2 - Dual Output 250mA 12-WFDFN Exposed Pad
+Change Component Description : Designator=J2 Old Description= New Description=MMCX Connector Receptacle, Female Socket 50Ohm Surface Mount Solder
+Change Component Description : Designator=U2 Old Description= New Description=Zero-Drift Amplifier 2 Circuit Rail-to-Rail 8-MSOP
+Change Component Description : Designator=C1 Old Description=Capacitor New Description=2.2 µF ±20% 16V Ceramic Capacitor X6S 0402 (1005 Metric)
+Change Component Description : Designator=C2 Old Description=Capacitor New Description=2.2 µF ±20% 16V Ceramic Capacitor X6S 0402 (1005 Metric)
+Change Component Description : Designator=C3 Old Description=Capacitor New Description=2.2 µF ±20% 16V Ceramic Capacitor X6S 0402 (1005 Metric)
+Change Component Description : Designator=D1 Old Description=Default Diode New Description=Green 525nm LED Indication - Discrete 3.2V 0603 (1608 Metric)
+Change Component Description : Designator=P1 Old Description=Header, 4-Pin New Description=Header, 4-PinConnector Header Surface Mount 4 position 0.039" (1.00mm)
+Change Component Description : Designator=R12 Old Description=Resistor New Description=1 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film
+Change Component Description : Designator=R9 Old Description=Resistor New Description=19.1 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film
+Change Component Description : Designator=R6 Old Description=Resistor New Description=50 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film
+Change Component Description : Designator=R1 Old Description=Resistor New Description=100 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film
+Change Component Description : Designator=R2 Old Description=Resistor New Description=100 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film
+Change Component Description : Designator=R3 Old Description=Resistor New Description=100 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film
+Change Component Description : Designator=R5 Old Description=Resistor New Description=100 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film
+Change Component Description : Designator=R4 Old Description=Resistor New Description=100 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film
+Change Component Kind : Designator=C4 Old Kind=Standard New Kind=Jumper
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=U1-5
+Added Net: Name=NetC4_2

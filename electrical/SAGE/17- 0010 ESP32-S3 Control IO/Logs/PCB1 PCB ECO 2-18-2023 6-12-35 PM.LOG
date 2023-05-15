@@ -1,0 +1,61 @@
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=+3.3VDC_1 Pin=C7-2
+Removed Pin From Net: NetName=NetC10_1 Pin=C8-1
+Removed Pin From Net: NetName=NetC10_2 Pin=C8-2
+Removed Pin From Net: NetName=NetC16_1 Pin=C11-1
+Removed Pin From Net: NetName=NetC17_1 Pin=C12-1
+Removed Pin From Net: NetName=NetC18_1 Pin=C14-1
+Removed Pin From Net: NetName=GND Pin=C14-2
+Removed Pin From Net: NetName=NetR9_1 Pin=R7-1
+Removed Pin From Net: NetName=NetR12_1 Pin=R8-1
+Removed Pin From Net: NetName=NetC27_2 Pin=R8-2
+Added Component: Designator=C9(1608[0603])
+Added Component: Designator=C10(1608[0603])
+Added Component: Designator=C16(1608[0603])
+Added Component: Designator=C17(1608[0603])
+Added Component: Designator=C19(1608[0603])
+Added Component: Designator=P?(MOLEX_430451214)
+Added Component: Designator=R9(0402)
+Added Component: Designator=R12(0402)
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=+3.3VDC_1 Pin=C7-2
+Added Pin To Net: NetName=NetC10_1 Pin=C8-1
+Added Pin To Net: NetName=NetC10_2 Pin=C8-2
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C11-1
+Added Pin To Net: NetName=+3.3VDC_0 Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=NetC16_1 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=NetC17_1 Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=NetC18_1 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=+24VDC_RP2 Pin=P?-1
+Added Pin To Net: NetName=GND Pin=P?-2
+Added Pin To Net: NetName=+24VDC_RP2 Pin=P?-3
+Added Pin To Net: NetName=GND Pin=P?-4
+Added Pin To Net: NetName=+12VDC Pin=P?-5
+Added Pin To Net: NetName=GND Pin=P?-6
+Added Pin To Net: NetName=+12VDC Pin=P?-7
+Added Pin To Net: NetName=GND Pin=P?-8
+Added Pin To Net: NetName=+5VDC Pin=P?-9
+Added Pin To Net: NetName=GND Pin=P?-10
+Added Pin To Net: NetName=+5VDC Pin=P?-11
+Added Pin To Net: NetName=GND Pin=P?-12
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=NetR9_1 Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=NetR12_1 Pin=R8-1
+Added Pin To Net: NetName=NetC27_2 Pin=R8-2
+Added Member To Class: ClassName=Sheet1 Member=Component C9 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component C10 Cap Semi
+Added Member To Class: ClassName=MCU Member=Component C19 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component P? Header 6X2
+Added Member To Class: ClassName=Power Mosfet IO Member=Component R9 Res3

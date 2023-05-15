@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=NetC6_2 Pin=C7-2
+Removed Pin From Net: NetName=+2V Pin=R1-1
+Removed Pin From Net: NetName=-2V Pin=R3-1
+Removed Pin From Net: NetName=VOUT Pin=U2-6
+Change Component Comment : Designator=D1 Old Comment=Diode New Comment=LTST-C191TGKT
+Change Component Comment : Designator=R8 Old Comment=Res3 New Comment=DNI
+Change Component Comment : Designator=R10 Old Comment=Res3 New Comment=DNI
+Added Component: Designator=C8(1608[0603])
+Added Component: Designator=R9(J1-0603)
+Added Component: Designator=R12(J1-0603)
+Added Pin To Net: NetName=VOUT Pin=C8-2
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=VOUT Pin=R9-2
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=GND Pin=R12-1
+Added Pin To Net: NetName=GND Pin=U2-3
+Change Net Name : Old Net Name=+2V New Net Name=+2.4V
+Change Net Name : Old Net Name=-2V New Net Name=-2.4V
+Added Pin To Net: NetName=+2V Pin=R1-1
+Added Net: Name=+2V
+Added Pin To Net: NetName=-2V Pin=R3-1
+Added Net: Name=-2V
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=R11-1
+Added Pin To Net: NetName=NetC7_2 Pin=U2-5
+Added Net: Name=NetC7_2
+Added Pin To Net: NetName=NetC8_1 Pin=C8-1
+Added Pin To Net: NetName=NetC8_1 Pin=R9-1
+Added Pin To Net: NetName=NetC8_1 Pin=R12-2
+Added Pin To Net: NetName=NetC8_1 Pin=U2-6
+Added Net: Name=NetC8_1
+Added Member To Class: ClassName=Sheet1 Member=Component C8 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component R9 Res3
+Added Member To Class: ClassName=Sheet1 Member=Component R12 Res3

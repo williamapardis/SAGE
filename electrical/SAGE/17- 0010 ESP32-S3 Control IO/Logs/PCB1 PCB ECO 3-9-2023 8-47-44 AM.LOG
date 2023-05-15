@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=A1 Pin=P5-4
+Removed Pin From Net: NetName=A0 Pin=P5-6
+Removed Pin From Net: NetName=GND Pin=P5-7
+Removed Pin From Net: NetName=CLK_INT Pin=P5-8
+Removed Pin From Net: NetName=VD Pin=P5-10
+Removed Pin From Net: NetName=VC Pin=P5-12
+Removed Pin From Net: NetName=GND Pin=P5-13
+Change Component Comment : Designator=P5 Old Comment=Header 15 New Comment=Aux. Output
+Change Component Description : Designator=U4 Old Description= New Description=WiFi Dev Board with STEMMA QT - 8 MB Flash / No PSRAM
+Change Component Description : Designator=P1 Old Description=Header, 4-Pin, Dual row New Description=CONN HEADER VERT 8POS 3MM
+Change Component Description : Designator=P4 Old Description=Header, 6-Pin, Dual row New Description=12V, 4.5A Step-Down Voltage Regulator5V, 5.5A Step-Down Voltage Regulator
+Change Component Description : Designator=P3 Old Description=Header, 6-Pin, Dual row New Description=12V, 4.5A Step-Down Voltage Regulator
+Added Pin To Net: NetName=+5VDC_0 Pin=P5-4
+Added Pin To Net: NetName=+5VDC_0 Pin=P5-6
+Added Pin To Net: NetName=A1 Pin=P5-7
+Added Pin To Net: NetName=A0 Pin=P5-8
+Added Pin To Net: NetName=CLK_INT Pin=P5-10
+Added Pin To Net: NetName=VD Pin=P5-12
+Added Pin To Net: NetName=VC Pin=P5-13

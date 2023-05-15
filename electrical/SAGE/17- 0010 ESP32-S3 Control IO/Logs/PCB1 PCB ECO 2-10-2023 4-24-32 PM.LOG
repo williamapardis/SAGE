@@ -1,0 +1,50 @@
+Added Component: Designator=P1(2X4 VERTICAL)
+Added Component: Designator=P6(1X2 RIGHT VERTICLE)
+Added Component: Designator=P8(1X2 RIGHT VERTICLE)
+Added Component: Designator=P10(1X2 RIGHT VERTICLE)
+Added Component: Designator=P12(1X2 RIGHT VERTICLE)
+Added Component: Designator=U7(QFN40P700X700X90-57N)
+Added Pin To Net: NetName=+24VDC Pin=P1-1
+Added Pin To Net: NetName=+24VDC Pin=P1-2
+Added Pin To Net: NetName=+24VDC Pin=P1-3
+Added Pin To Net: NetName=+24VDC Pin=P1-4
+Added Pin To Net: NetName=GND Pin=P1-5
+Added Pin To Net: NetName=GND Pin=P1-6
+Added Pin To Net: NetName=GND Pin=P1-7
+Added Pin To Net: NetName=GND Pin=P1-8
+Added Pin To Net: NetName=NetP5_4 Pin=P6-1
+Added Pin To Net: NetName=NetP6_2 Pin=P6-2
+Added Pin To Net: NetName=NetP7_4 Pin=P8-1
+Added Pin To Net: NetName=NetP8_2 Pin=P8-2
+Added Pin To Net: NetName=NetP9_4 Pin=P10-1
+Added Pin To Net: NetName=NetP10_2 Pin=P10-2
+Added Pin To Net: NetName=NetP11_4 Pin=P12-1
+Added Pin To Net: NetName=NetP12_2 Pin=P12-2
+Added Pin To Net: NetName=NetC21_1 Pin=U7-1
+Added Pin To Net: NetName=TX Pin=U7-10
+Added Pin To Net: NetName=SCL Pin=U7-11
+Added Pin To Net: NetName=SDA Pin=U7-12
+Added Pin To Net: NetName=NetC10_1 Pin=U7-20
+Added Pin To Net: NetName=A1 Pin=U7-23
+Added Pin To Net: NetName=A0 Pin=U7-24
+Added Pin To Net: NetName=D- Pin=U7-25
+Added Pin To Net: NetName=D+ Pin=U7-26
+Added Pin To Net: NetName=NetC24_1 Pin=U7-27
+Added Pin To Net: NetName=NetC16_1 Pin=U7-29
+Added Pin To Net: NetName=MOSI Pin=U7-39
+Added Pin To Net: NetName=SCK Pin=U7-40
+Added Pin To Net: NetName=MISO Pin=U7-41
+Added Pin To Net: NetName=SCL1 Pin=U7-45
+Added Pin To Net: NetName=NetC11_1 Pin=U7-46
+Added Pin To Net: NetName=SDA1 Pin=U7-47
+Added Pin To Net: NetName=NetC23_2 Pin=U7-53
+Added Pin To Net: NetName=NetR8_1 Pin=U7-54
+Added Pin To Net: NetName=NetC18_1 Pin=U7-55
+Added Pin To Net: NetName=NetC18_1 Pin=U7-56
+Added Pin To Net: NetName=GND Pin=U7-57
+Added Member To Class: ClassName=Sheet1 Member=Component P1 Input Power
+Added Member To Class: ClassName=Power Mosfet IO Member=Component P6 Header 2
+Added Member To Class: ClassName=Power Mosfet IO Member=Component P8 Header 2
+Added Member To Class: ClassName=Power Mosfet IO Member=Component P10 Header 2
+Added Member To Class: ClassName=Power Mosfet IO Member=Component P12 Header 2
+Added Member To Class: ClassName=MCU Member=Component U7 Check availability Check availability
