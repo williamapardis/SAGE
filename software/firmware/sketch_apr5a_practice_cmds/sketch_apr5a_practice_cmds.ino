@@ -5,6 +5,7 @@
 #include <Adafruit_TestBed.h>
 extern Adafruit_TestBed TB;
 //I2C device libraries
+#include "RTClib.h"
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME280.h>
 #include <Adafruit_PWMServoDriver.h>
@@ -14,6 +15,7 @@ extern Adafruit_TestBed TB;
 #include "SD.h"
 #include "SPI.h"
 
+//two different I2C ports
 #define DEFAULT_I2C_PORT &Wire
 #define SECONDARY_I2C_PORT &Wire1
 
@@ -21,27 +23,31 @@ extern Adafruit_TestBed TB;
 long timezone = 1; 
 byte daysavetime = 1;
 
+//Wifi credentials
 const char* ssid = "Scientists2.4";
 const char* password = "FalkorTooSC1";
 
 IPAddress IP;
 
 const char* html="<html>"
-      "<head>"
-      "<meta charset=\"utf-8\">"
-      "<title>ESP32-S2 Web control NeoPixel</title>"
-      "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">"
-      "</head>"
-      "<body>"
-      "Click <a href=\"/H\">here</a> to turn the RGB LED (NeoPixel) ON.<br>"
-      "Click <a href=\"/L\">here</a> to turn the RGB LED (NeoPixel) OFF.<br>"
-      "</body>"
-      "</html>";
+  "<head>"
+  "<meta charset=\"utf-8\">"
+  "<title>ESP32-S2 Web control NeoPixel</title>"
+  "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">"
+  "</head>"
+  "<body>"
+  "Click <a href=\"/H\">here</a> to turn the RGB LED (NeoPixel) ON.<br>"
+  "Click <a href=\"/L\">here</a> to turn the RGB LED (NeoPixel) OFF.<br>"
+  "</body>"
+  "</html>";
 
 // Create AsyncWebServer object on port 80
 //AsyncWebServer server(80);
 // Set web server port number to 80
 WiFiServer server(80);
+
+//DS3231 Real Time Clock
+RTC_DS3231 rtc;
 
 //BME280 Pressure Temerpature and Relative Humidity
 Adafruit_BME280 bme; // I2C
@@ -61,114 +67,146 @@ Adafruit_MPRLS mpr1 = Adafruit_MPRLS(RESET_PIN, EOC_PIN);
 const int BUFFER_SIZE = 100;
 char buf[BUFFER_SIZE];
 
-void setup() {
 
-  analogReadResolution(12);
+//case structure is organized with commands in alphabetical order by comand syntax
+void set(char cmd[]) {
+  switch (cmd[1]){
 
+    case 'L':   //setting PWM loads
+      if(cmd[3]==':'){
+        double duty = atof(&cmd[4]);
+        int load = cmd[2]- '0';
+        Serial.print("duty clcyle: ");Serial.println(duty);
+        if(duty > 1){
+          Serial.println("invalid duty cycle, select 0-1");
+        }
+        else{
+          Serial.print("load ");Serial.print(load);Serial.print(" set to: ");Serial.print(duty*100,0);Serial.println('%');
+          Serial.println((int)4095*duty);
+          pwm.setPWM(load, 0, (int)4095*duty);
+        }
+      }
+    break;
 
-  Wire1.setPins(SDA1, SCL1);
+    
+    case 'N':   //disconnects AP, connects to local WiFi network, NTP synce, reconnect AP
+      WiFi.disconnect();
 
-  //serial ports init
-  Serial.begin(115200);Serial.flush();
-  Serial1.begin(115200);Serial1.flush();
-  while(!Serial){delay(10000);break;}
+      ssid = "Scientists2.4";
+      password = "FalkorTooSC1";
+      
+      //First try to connect to WiFi to sync time
+      Serial.print("Connecting to: ");
+      Serial.print(ssid);
+      WiFi.begin(ssid, password);
+      while (WiFi.status() != WL_CONNECTED) {
+        delay(500);Serial.print(".");
+      }
+      Serial.println();
+      Serial.println("WiFi connected");
+      Serial.println("IP address: ");
+      Serial.println(WiFi.localIP());
+      //collect time from web
+      Serial.println("Contacting Time Server");
+      configTime(3600*timezone, daysavetime*3600, "time.nist.gov", "0.pool.ntp.org", "1.pool.ntp.org");
+      struct tm tmstruct ;
+      delay(2000);
+      tmstruct.tm_year = 0;
+      getLocalTime(&tmstruct, 5000);
+      Serial.printf("\nNow is... %d-%02d-%02d %02d:%02d:%02d\n\n",(tmstruct.tm_year)+1900,(tmstruct.tm_mon)+1, tmstruct.tm_mday,tmstruct.tm_hour , tmstruct.tm_min, tmstruct.tm_sec);
+      rtc.adjust(DateTime((tmstruct.tm_year)+1900,(tmstruct.tm_mon)+1,tmstruct.tm_mday,tmstruct.tm_hour,tmstruct.tm_min,tmstruct.tm_sec));
+      WiFi.disconnect();
 
+      // Setting the ESP as an access point
+      Serial.print("Setting AP (Access Point)…");
+      ssid = "SAGE-Access-Point";
+      password = "WHOI1930";
+      // Remove the password parameter, if you want the AP (Access Point) to be open
+      WiFi.softAP(ssid, password);
 
-  //First try to connect to WiFi to sync time
-  Serial.print("Connecting to: ");
-  Serial.println(ssid);
-  WiFi.begin(ssid, password);
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);Serial.print(".");
+      IP = WiFi.softAPIP();
+      Serial.print("AP IP address: ");
+      Serial.println(IP);
+
+      server.begin();
+    break;
+
+    case 'T':   //manually sets time 
+      if(cmd[2]==':'){
+        Serial.printf("setting time to %s... ",&cmd[4]);
+        rtc.adjust(DateTime(2014, 1, 21, 3, 0, 0));
+        Serial.println("time set");
+      }
+    break;
+
+    case 'A':   //setting analog outputs
+      if(cmd[3]==':'){
+        double volts = atof(&cmd[4]);
+        int out = 4095*(volts/3.3);
+        Serial.print("setting A");Serial.print(cmd[2]);Serial.print(":");Serial.println(out);      
+        switch(cmd[2]){
+          case '0': analogWrite(A0,out); break;
+          case '1': analogWrite(A1,out); break;        
+        }
+      }
+    break;        
   }
-  Serial.println("WiFi connected");
-  Serial.println("IP address: ");
-  Serial.println(WiFi.localIP());
-  //collect time from web
-  Serial.println("Contacting Time Server");
-  configTime(3600*timezone, daysavetime*3600, "time.nist.gov", "0.pool.ntp.org", "1.pool.ntp.org");
-	struct tm tmstruct ;
-  delay(2000);
-  tmstruct.tm_year = 0;
-  getLocalTime(&tmstruct, 5000);
-	Serial.printf("\nNow is... %d-%02d-%02d %02d:%02d:%02d\n\n",(tmstruct.tm_year)+1900,( tmstruct.tm_mon)+1, tmstruct.tm_mday,tmstruct.tm_hour , tmstruct.tm_min, tmstruct.tm_sec);
-  WiFi.disconnect();
-  
-  //initilize SD card
-  Serial.print("initilizing SD card... ");
-  if(!SD.begin()){
-    Serial.println("Card Mount Failed");
-  }
-  Serial.println("SD initilized");  
-  //print storage
-  Serial.printf("Total space: %lluMB\n", SD.totalBytes() / (1024 * 1024));
-  Serial.printf("Used space: %lluMB\n", SD.usedBytes() / (1024 * 1024));
-  //check or creat data diretory 
-  char dataDir[30];
-  sprintf(dataDir,"/data/%d%02d%02dT%02d%02d%02d",(tmstruct.tm_year)+1900,( tmstruct.tm_mon)+1, tmstruct.tm_mday,tmstruct.tm_hour , tmstruct.tm_min, tmstruct.tm_sec);
-  createDir(SD,dataDir);
-  //list root directory
-  listDir(SD, "/data", 0);
-
-
-  // Setting the ESP as an access point
-  Serial.print("Setting AP (Access Point)…");
-  ssid = "SAGE-Access-Point";
-  password = "WHOI1930";
-  // Remove the password parameter, if you want the AP (Access Point) to be open
-  WiFi.softAP(ssid, password);
-
-  IP = WiFi.softAPIP();
-  Serial.print("AP IP address: ");
-  Serial.println(IP);
-
-  server.begin();
-
-
-  //Scan I2C bus and print the available addresses
-  Serial.println("scanning I2C busses");
-  Serial.print("Default port (Wire0) ");
-  TB.theWire = DEFAULT_I2C_PORT;
-  TB.printI2CBusScan();  
-  Serial.print("Secondary port (Wire1) ");
-  TB.theWire = SECONDARY_I2C_PORT;
-  TB.printI2CBusScan();
-
-  //initilize BME280
-  Serial.print("initilizing BME280, bus 1, addr 0x76... "); 
-    if (!bme.begin(&Wire1)) {
-        Serial.println("failed");
-    }
-  Serial.println("found BME280 sensor");
-  
-  //initilize PWM driver
-  Serial.print("initilizing PWM driver, bus 0, addr 0x40... ");
-  pwm.begin();
-  pwm.setOscillatorFrequency(27000000);
-  pwm.setPWMFreq(1600);  // This is the maximum PWM frequency
-  Serial.println("PWM driver initilized");
-
-  //initilizing MPRLS pressure sensors
-  Serial.print("initilizing MPRLS pressure sensor, bus 0, addr 0x18... ");
-  if (! mpr0.begin(0x18,&Wire)) {
-    Serial.println("failed");
-  }
-  Serial.println("found MPRLS sensor");
-  Serial.print("initilizing MPRLS pressure sensor, bus 1, addr 0x18... ");
-  if (! mpr1.begin(0x18,&Wire1)) {
-    Serial.println("failed");
-  }
-  Serial.println("found MPRLS sensor");
-
 }
 
-//for(int i=0;i<256;i++){
-//    dacWrite(17,i);delay(100);Serial.println(i);
-//}
+double get(char cmd[]){
+  switch (cmd[1]){
+    case 'A':   //get analog input
+      switch(cmd[2]){
+        case '0': return analogRead(A0);
+        case '1': return analogRead(A1);
+        case '2': return analogRead(A2);
+        case '3': return analogRead(A3);
+      }
+    break;
 
-void loop() {
-  incoming();
-  //wifiIncoming();
+
+    case 'P':   //get pressure hPa      
+      switch(cmd[2]){
+      case '0':
+        return mpr0.readPressure();
+      break;
+      case '1':
+        return mpr1.readPressure();
+      break;
+      case '2':
+        return bme.readPressure() / 100.0F;
+      break;
+      // default:
+      //   Serial.print(cmd);Serial.println(" is a invalid command");
+      //   return 0;
+      // break;
+      }
+    break;
+
+    case 'I':
+      Serial.print("AP IP address: ");
+      Serial.println(IP);
+      return 1;
+    break;
+    
+    case 'T':
+      DateTime now = rtc.now();
+      Serial.printf("\nNow is... %d-%02d-%02d %02d:%02d:%02d\n\n",now.year(),now.month(),now.day(),now.hour(),now.minute(),now.second());
+      return 1;
+    break;
+  }
+  return 0;
+}
+
+
+void parseCMD(char cmd[]) {
+  if(cmd[0]=='S'){
+    //read in load number and feed to duty cycle function
+    set(cmd);        
+  }
+  else if(cmd[0]=='G'){
+    Serial.println(get(cmd));
+  }
 }
 
 
@@ -221,89 +259,110 @@ void incoming(){
   }
 }
 
-void parseCMD(char cmd[]) {
-  if(cmd[0]=='S'){
-    //read in load number and feed to duty cycle function
-    set(cmd);        
+
+
+
+
+
+
+
+
+void setup() {
+
+  analogReadResolution(12);
+
+  Wire1.setPins(SDA1, SCL1);
+
+  //serial ports init
+  Serial.begin(115200);Serial.flush();
+  Serial1.begin(115200);Serial1.flush();
+  while(!Serial){delay(10000);break;}
+
+  //initilizing clock
+  Serial.print("initilizing DS3231, bus 0, addr  ... "); 
+  if (!rtc.begin()) {
+    Serial.println("Couldn't find RTC");
+    Serial.flush();
+    while (1) delay(10);
   }
-  else if(cmd[0]=='G'){
-    Serial.println(get(cmd));
+  Serial.println("found DS3231");
+  DateTime now = rtc.now();
+	Serial.printf("\nNow is... %d-%02d-%02d %02d:%02d:%02d\n\n",now.year(),now.month(),now.day(),now.hour(),now.minute(),now.second());
+  
+  //initilize SD card
+  Serial.print("initilizing SD card... ");
+  if(!SD.begin()){
+    Serial.println("Card Mount Failed");
   }
-}
-
-void set(char cmd[]) {
-  switch (cmd[1]){
-
-    case 'L':   //setting PWM loads
-      if(cmd[3]==':'){
-        double duty = atof(&cmd[4]);
-        int load = cmd[2]- '0';
-        Serial.print("duty clcyle: ");Serial.println(duty);
-        if(duty > 1){
-          Serial.println("invalid duty cycle, select 0-1");
-        }
-        else{
-          Serial.print("load ");Serial.print(load);Serial.print(" set to: ");Serial.print(duty*100,0);Serial.println('%');
-          Serial.println((int)4095*duty);
-          pwm.setPWM(load, 0, (int)4095*duty);
-        }
-      }
-    break;
+  Serial.println("SD initilized");  
+  //print storage
+  Serial.printf("Total space: %lluMB\n", SD.totalBytes() / (1024 * 1024));
+  Serial.printf("Used space: %lluMB\n", SD.usedBytes() / (1024 * 1024));
+  //check or creat data diretory 
+  //char dataDir[30];
+  //sprintf(dataDir,"/data/%d%02d%02dT%02d%02d%02d",(tmstruct.tm_year)+1900,( tmstruct.tm_mon)+1, tmstruct.tm_mday,tmstruct.tm_hour , tmstruct.tm_min, tmstruct.tm_sec);
+ 
+  //createDir(SD,dataDir);
+  //list root directory
+  //listDir(SD, "/data", 0);
 
 
-    case 'A':   //setting analog outputs
-      if(cmd[3]==':'){
-        double volts = atof(&cmd[4]);
-        int out = 4095*(volts/3.3);
-        Serial.print("setting A");Serial.print(cmd[2]);Serial.print(":");Serial.println(out);      
-        switch(cmd[2]){
-          case '0': analogWrite(A0,out); break;
-          case '1': analogWrite(A1,out); break;        
-        }
-      }
-    break;        
-  }
-}
+  // Setting the ESP as an access point
+  Serial.print("Setting AP (Access Point)…");
+  ssid = "SAGE-Access-Point";
+  password = "WHOI1930";
+  // Remove the password parameter, if you want the AP (Access Point) to be open
+  WiFi.softAP(ssid, password);
 
-double get(char cmd[]){
-  switch (cmd[1]){
-    
-    case 'A':   //get analog input
-      switch(cmd[2]){
-        case '0': return analogRead(A0);
-        case '1': return analogRead(A1);
-        case '2': return analogRead(A2);
-        case '3': return analogRead(A3);
-      }
-    break;
+  IP = WiFi.softAPIP();
+  Serial.print("AP IP address: ");
+  Serial.println(IP);
+
+  server.begin();
 
 
-    case 'P':   //get pressure hPa      
-      switch(cmd[2]){
-      case '0':
-        return mpr0.readPressure();
-        break;
-      case '1':
-        return mpr1.readPressure();
-        break;
-      case '2':
-        return bme.readPressure() / 100.0F;
-        break;
-      default:
-        invalid(cmd);
-        break;
+  //Scan I2C bus and print the available addresses
+  Serial.println("scanning I2C busses");
+  Serial.print("Default port (Wire0) ");
+  TB.theWire = DEFAULT_I2C_PORT;
+  TB.printI2CBusScan();  
+  Serial.print("Secondary port (Wire1) ");
+  TB.theWire = SECONDARY_I2C_PORT;
+  TB.printI2CBusScan();
+
+  //initilize BME280
+  Serial.print("initilizing BME280, bus 1, addr 0x77... "); 
+    if (!bme.begin(0x77,&Wire1)) {
+        Serial.println("failed");
     }
-    break;
+  Serial.println("found BME280 sensor");
+  
+  //initilize PWM driver
+  Serial.print("initilizing PWM driver, bus 0, addr 0x40... ");
+  pwm.begin();
+  pwm.setOscillatorFrequency(27000000);
+  pwm.setPWMFreq(1600);  // This is the maximum PWM frequency
+  Serial.println("PWM driver initilized");
 
-    case 'I':
-      Serial.print("AP IP address: ");
-      Serial.println(IP);
-    break;
-    
-
+  //initilizing MPRLS pressure sensors
+  Serial.print("initilizing MPRLS pressure sensor, bus 0, addr 0x18... ");
+  if (! mpr0.begin(0x18,&Wire)) {
+    Serial.println("failed");
   }
+  Serial.println("found MPRLS sensor");
+  Serial.print("initilizing MPRLS pressure sensor, bus 1, addr 0x18... ");
+  if (! mpr1.begin(0x18,&Wire1)) {
+    Serial.println("failed");
+  }
+  Serial.println("found MPRLS sensor");
+
 }
 
-void invalid(char cmd[]){
-  Serial.print(cmd);Serial.println(" is a invalid command");
+//for(int i=0;i<256;i++){
+//    dacWrite(17,i);delay(100);Serial.println(i);
+//}
+
+void loop() {
+  incoming();
+  //wifiIncoming();
 }
