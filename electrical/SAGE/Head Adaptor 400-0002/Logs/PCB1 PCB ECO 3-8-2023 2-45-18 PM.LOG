@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=GND Pin=J?-02
+Removed Pin From Net: NetName=GND Pin=J?-03
+Removed Pin From Net: NetName=GND Pin=J?-04
+Removed Pin From Net: NetName=GND Pin=J?-05
+Removed Pin From Net: NetName=GND Pin=J?-06
+Removed Pin From Net: NetName=GND Pin=J?-07
+Removed Pin From Net: NetName=GND Pin=J?-08
+Removed Pin From Net: NetName=SCL Pin=J?-09
+Removed Pin From Net: NetName=SDA Pin=J?-10
+Removed Pin From Net: NetName=GND Pin=J?-11
+Removed Pin From Net: NetName=GND Pin=J?-12
+Removed Pin From Net: NetName=GND Pin=J?-13
+Removed Pin From Net: NetName=GND Pin=J?-14
+Removed Pin From Net: NetName=GND Pin=J?-15
+Removed Pin From Net: NetName=GND Pin=J?-16
+Removed Pin From Net: NetName=GND Pin=J?-17
+Removed Pin From Net: NetName=GND Pin=J?-18
+Removed Pin From Net: NetName=GND Pin=J?-19
+Removed Pin From Net: NetName=GND Pin=J?-20
+Removed Pin From Net: NetName=GND Pin=J?-21
+Removed Pin From Net: NetName=GND Pin=J?-22
+Removed Pin From Net: NetName=GND Pin=J?-23
+Removed Pin From Net: NetName=GND Pin=J?-24
+Removed Pin From Net: NetName=GND Pin=J?-25
+Removed Pin From Net: NetName=GND Pin=J?-26
+Removed Member From Class: ClassName=Sheet2 Member=J?
+Change Component Designator: OldDesignator=J3 NewDesignator=J2
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Added Component: Designator=J1(4P vert)
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=SDA Pin=J1-3
+Added Pin To Net: NetName=SCL Pin=J1-4
+Added Pin To Net: NetName=GND Pin=P1-15
+Added Net: Name=-4VDC
+Added Pin To Net: NetName=AI0 Pin=P1-7
+Added Net: Name=AI0
+Added Pin To Net: NetName=AI1 Pin=P1-8
+Added Net: Name=AI1
+Added Pin To Net: NetName=AI2 Pin=P1-9
+Added Net: Name=AI2
+Added Pin To Net: NetName=AI3 Pin=P1-10
+Added Net: Name=AI3
+Added Pin To Net: NetName=AO0 Pin=P1-11
+Added Net: Name=AO0
+Added Pin To Net: NetName=AO1 Pin=P1-12
+Added Net: Name=AO1
+Added Pin To Net: NetName=AO2 Pin=P1-13
+Added Net: Name=AO2
+Added Pin To Net: NetName=AO3 Pin=P1-14
+Added Net: Name=AO3
+Added Net: Name=CLK
+Added Net: Name=CS
+Added Net: Name=EXT_CLK+
+Added Net: Name=EXT_CLK-
+Added Net: Name=MISO
+Added Net: Name=MOSI
+Added Net: Name=RP_RX
+Added Net: Name=RP_TX
+Added Member To Class: ClassName=Sheet2 Member=Component J1 Qwiic

@@ -1,0 +1,28 @@
+Added Component: Designator=E2(SAMTEC_SSM-113-F-DV-LC)
+Added Pin To Net: NetName=+5VDC_0 Pin=E2-01
+Added Pin To Net: NetName=-4VDC Pin=E2-02
+Added Pin To Net: NetName=MOSI Pin=E2-03
+Added Pin To Net: NetName=MISO Pin=E2-04
+Added Pin To Net: NetName=CLK Pin=E2-05
+Added Pin To Net: NetName=CS Pin=E2-06
+Added Pin To Net: NetName=RP_TX Pin=E2-07
+Added Pin To Net: NetName=RP_RX Pin=E2-08
+Added Pin To Net: NetName=SCL Pin=E2-09
+Added Pin To Net: NetName=SDA Pin=E2-10
+Added Pin To Net: NetName=GND Pin=E2-11
+Added Pin To Net: NetName=GND Pin=E2-12
+Added Pin To Net: NetName=AI0 Pin=E2-13
+Added Pin To Net: NetName=AI1 Pin=E2-14
+Added Pin To Net: NetName=AI2 Pin=E2-15
+Added Pin To Net: NetName=AI3 Pin=E2-16
+Added Pin To Net: NetName=AO0 Pin=E2-17
+Added Pin To Net: NetName=AO1 Pin=E2-18
+Added Pin To Net: NetName=AO2 Pin=E2-19
+Added Pin To Net: NetName=AO2 Pin=E2-20
+Added Pin To Net: NetName=GND Pin=E2-21
+Added Pin To Net: NetName=GND Pin=E2-22
+Added Pin To Net: NetName=EXT_CLK+ Pin=E2-23
+Added Pin To Net: NetName=EXT_CLK- Pin=E2-24
+Added Pin To Net: NetName=GND Pin=E2-25
+Added Pin To Net: NetName=GND Pin=E2-26
+Added Member To Class: ClassName=Sheet2 Member=Component E2 SSM-113-F-DV-LC

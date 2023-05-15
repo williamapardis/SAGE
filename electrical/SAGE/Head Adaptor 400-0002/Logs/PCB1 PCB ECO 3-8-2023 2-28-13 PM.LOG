@@ -1,0 +1,11 @@
+Added Component: Designator=P?(15P VERT)
+Added Pin To Net: NetName=GND Pin=P?-3
+Added Pin To Net: NetName=GND Pin=P?-5
+Added Pin To Net: NetName=+5VDC_0 Pin=P?-4
+Added Pin To Net: NetName=+5VDC_0 Pin=P?-6
+Added Net: Name=+5VDC_0
+Added Pin To Net: NetName=RX Pin=P?-1
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=P?-2
+Added Net: Name=TX
+Added Member To Class: ClassName=Sheet2 Member=Component P? Aux. Output
