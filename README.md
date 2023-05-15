@@ -34,8 +34,8 @@
      <td>Zoomed View</td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/57682790/235982042-21e1d6ae-0467-47f3-bfc1-7cfede07f680.png" width="425"></td>
-    <td><img src="https://user-images.githubusercontent.com/57682790/235982125-0cb705ef-d757-4d2d-b897-8445e63818fc.png" width="425"></td>
+    <td><img src="https://github.com/williamapardis/SAGE/assets/57682790/d10c15d2-64a0-404d-9eed-91261adfe727" width="425"></td>
+    <td><img src="https://github.com/williamapardis/SAGE/assets/57682790/f8461d56-a2dc-4e97-90d8-e00c208fbd5b" width="425"></td>
   </tr>
 </table>
 
