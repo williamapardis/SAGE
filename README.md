@@ -14,7 +14,7 @@
   </tr>
 </table>
 
-### SAGE Detect PCB 
+### [SAGE Detect PCB](https://github.com/williamapardis/SAGE/tree/main/electrical/SAGE/17-0001%20SAGE%20DETECT) 
 <table>
   <tr>
     <td>Full View PCB</td>
