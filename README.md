@@ -22,7 +22,7 @@
   </tr>
   <tr>
     <td><img src="https://github.com/williamapardis/SAGE/assets/57682790/577d950b-95b4-4467-8439-4f323bca229a" width="425"></td>
-    <td><img src="https://user-images.githubusercontent.com/57682790/235982125-0cb705ef-d757-4d2d-b897-8445e63818fc.png" width="425"></td>
+    <td><img src="https://github.com/williamapardis/SAGE/assets/57682790/3dcccdbc-766d-4914-8538-4b8c2ae8657d" width="425"></td>
   </tr>
 </table>
 
