@@ -1,5 +1,15 @@
 # SAGE
 
+## SAGE ELECTRONICS
+
+- The main SAGE electronics consist of a Red Pitaya FPGA/linux embedded controller, a custom IO PCB, and a custom photodiode detector PCB.
+- The custom IO PCB has the following functions:
+  - Power regulation for input voltage (usually 24V), 12V, 5V.  All are reverse protected to 40V.  Overcurrent protected. Can take input 12.1-50V.
+  - Power switching on 8 channels.  PWM voltage control for each channel.
+  - Two i2c pressure sensors.
+  - Supplies power to laser and Red Pitaya.
+  - Serial communication to Red Pitaya.
+  - ESP32 microcontroller - onboard ADCs read thermistors, one onbaord DAC controls laser temperature, one onboard DAC can modulate laser (not preferred), DIO switches power channels,   
 ## Custom PCBs
 
 ### [SAGE_IO PCB 17-0010](https://github.com/williamapardis/SAGE_IO/tree/main/electrical/SAGE/17-%200010%20ESP32-S3%20Control%20IO)
