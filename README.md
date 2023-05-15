@@ -14,6 +14,9 @@
   </tr>
 </table>
 
+#### Load Control Voltage Selection
+https://github.com/williamapardis/SAGE/assets/57682790/2c09140d-9921-477e-8a8d-e2d6ae86eb5d
+
 ### [SAGE Detect PCB](https://github.com/williamapardis/SAGE/tree/main/electrical/SAGE/17-0001%20SAGE%20DETECT) 
 <table>
   <tr>
