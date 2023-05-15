@@ -1,5 +1,6 @@
-# SAGE_IO
+# SAGE
 
+[SAGE_IO PCB 17-0010](https://github.com/williamapardis/SAGE_IO/tree/main/electrical/SAGE/17-%200010%20ESP32-S3%20Control%20IO)
 <table>
   <tr>
     <td>Full View PCB</td>
